@@ -9,7 +9,8 @@ If you actually happen to find this, it's "use at your own risk" territory. Stuf
 
 Takes a few of the unused vanilla shivering isles weathers and puts them into the rotation.
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
-Actually not fully sure if they are *unused* so could have weird effect if they are used in a scene/script. Also needs some finetuning of the colors. 
+Actually not fully sure if they are *unused* so could have weird effect if they are used in a scene/script. 
+Nights are 50% darker.
 
 
 ## Ambient Dungeons
