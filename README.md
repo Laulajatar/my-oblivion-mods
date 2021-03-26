@@ -52,7 +52,13 @@ Plan for DLC patches was to take one of the prepared quest scripts, edit it in a
 ## New Familiars
 
 Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.
-The water walking ability sometimes bugs out, there is no custom spell icon yet and the bear head is bugged in vanilla already to look weird when affected by transparency. The menu is messy, "Nevermind" dispels the familiar and Atronach doesn't work lol.
+The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
+Plans: Make ini setting toi toggle on or off transparency and ghost effect work. Distribute books to dungeons and clean the three edited cells out.
+
+
+## Respawning Ayleid Stones
+
+Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall. 
 
 
 ## Shivering Weather mixed up
@@ -61,11 +67,5 @@ Takes a few of the unused vanilla shivering isles weathers and puts them into th
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
 Actually not fully sure if they are *unused* so could have weird effect if they are used in a scene/script. 
 Nights are 50% darker.
-
-
-## Respawning Ayleid Stones
-
-Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall. 
-
 
 
