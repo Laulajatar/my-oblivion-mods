@@ -53,7 +53,7 @@ Plan for DLC patches was to take one of the prepared quest scripts, edit it in a
 
 Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.
 The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
-Plans: Make ini setting toi toggle on or off transparency and ghost effect work. Distribute books to dungeons and clean the three edited cells out.
+Plans: Make ini setting toi toggle on or off transparency and ghost effect work. Distribute books to dungeons and clean the three edited cells out. Change the requirements for levelup depending on mysti/conj. Block some of the forms off till later (lion and wisp and stuff are probably a bit too op early on.) 
 
 
 ## Respawning Ayleid Stones
