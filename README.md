@@ -65,7 +65,6 @@ Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) i
 
 Takes a few of the unused vanilla shivering isles weathers and puts them into the rotation.
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
-Actually not fully sure if they are *unused* so could have weird effect if they are used in a scene/script. 
-Nights are 50% darker.
+Nights are roughly 50% darker.
 
 
