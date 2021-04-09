@@ -10,12 +10,13 @@ I got a bit bored with the few weathers that exist in SI. Mania and Dementia eac
 - Allows for Mania weather to happen on the Dementia side of SI and vice versa. Chances are higher for native weather. 
 - Takes a few more weathers and adds them to the rotation.
   There are now 3 clear weathers, 2 overcast weathers, 2 foggy weathers and 2 rainy/stormy weathers. 
-- Changes some of the existing weathers slightly. Most notably, there is now less fog, unless the weather is foggy.
+- Changes some of the existing weathers slightly. 
 - Makes nights roughly 50% darker. 
 - Uses only vanilla textures. If you use any replacers, those will be used. 
 
 What this mod doesn't do: 
 - Add new weather records. I reused some vanilla records that looked unused, because I wanted this mod to be mergeable. 
+  I sure hope they were really unused. I couldn't find references to them in any scripts or regions. 
 - Add new textures. 
 - Do drastic changes to the lighting. Well at least I hope so. I attempted to keep the vanilla mood mostly. 
 
