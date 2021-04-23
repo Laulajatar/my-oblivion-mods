@@ -24,6 +24,10 @@ Update of the Bookworm mod, using ConScribe to make it possible to sync the read
 
 Some pathetic attempt at more clear and transparent water, some very clear mountain lakes, some tinted interior waters as well as green swamp water. Not compatible with UL. As with all water transparencies, at the ocean (or other huge water bodies) it will look weird outside the rendered cells. 
 
+## CTAddPose Custom ESP
+
+To be used with this tutorial [Making your own one-mod pose collection](http://www.shrine-of-kynareth.de/making-your-own-one-mod-pose-collection).
+
 
 ## Dynamically Adjusted Darkness
 
