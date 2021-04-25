@@ -71,4 +71,10 @@ Takes a few of the unused vanilla shivering isles weathers and puts them into th
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
 Nights are roughly 50% darker.
 
+## Traveler's Tent
 
+This mod has been released on the nexus.   
+This version is adding some further development/fixes without proper time for testing. Currently:    
+- Replaces Moveto command on tent interaction with a real door. 
+- Fixes the local map showing dummy interiors I used for decorating.
+- Added the scripted spell failsafe from this [article](https://www.nexusmods.com/oblivion/articles/44458/) to the mark companion spell.
