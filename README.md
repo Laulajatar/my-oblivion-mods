@@ -60,6 +60,13 @@ The water walking ability sometimes bugs out and generally, the ghostly effect b
 Plans: Block some of the forms off till later (lion and wisp and stuff are probably a bit too op early on.) Replace Imp with something? Because it keeps getting stuck. possibly elytra or baliwog or custom creature. Add some script so the buggers don't get stuck behind doors (or does it perhaps need some higer process setting).
 
 
+## New Gems
+
+Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
+The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. Currently those gems are only found in the testinghall.     
+Plans: Add the gems to leveled lists (while making them unleveled), and adding some way to grind them to dust (preferably without relying on COBL).
+
+
 ## Respawning Ayleid Stones
 
 Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall. 
@@ -70,6 +77,7 @@ Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) i
 Takes a few of the unused vanilla shivering isles weathers and puts them into the rotation.
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
 Nights are roughly 50% darker.
+
 
 ## Traveler's Tent
 
