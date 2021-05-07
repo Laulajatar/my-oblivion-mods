@@ -6,9 +6,10 @@ Fortify all Magic Schools 25
 200 Magicka
 50% Weakness to magic
 
-Lover
+!! Lover
 Those born under the lover are granted the power to command another person once per day.
 Command Humanoid
+# Reanimate would be nice, but then I need to figure out how to make it work with av latta
 
 !! Mage
 Those born under the Mage are granted a medium bonus to magicka and faster magicka regeneration.
@@ -28,26 +29,28 @@ Stunted
 
 !! Lord
 Those born under the Lord possess the power to manipulate emotions. They get an inherent bonus to Personality, Speechcraft and Mercantile. The power of the Graybeard's Voice throws enemies off their feet.
-All Ilusion Powers Mag 100
-10 Pers/Speech/Merc
+Rally/Demoralize/Frenzy/Calm Powers Mag 100
 Thuum
+10 Pers/Speech/Merc
 
 !! Lady
 Those born under the Lady are granted a bonus to willpower and endurance, and the ability to breathe water. They possess the power to restore damaged attributes or cure disease and poison.
 10 Willpower
 10 Endurance
 Waterbreathing
+Ability Cure/Restore all Attributes
 
 !! Ritual
 Those born under the Ritual are granted a huge bonus to health, a small health regeneration and the ability to heal once per day. Their touch turns undead. 
 100 Health
 Restore 1
+Power Heal 250
+Lesser Power Turn undead
 
 !! Serpent
-Those born under the Serpent are granted immunity to poison, as well as slightly faster regeneration of fatigue and magicka. Their bite paralyzes enemies and steals some of their health.
+Those born under the Serpent are granted immunity to poison. Their bite paralyzes enemies and steals some of their health.
 100% Poison
-Restore FM 1 1
-Paralyze 10 sec, absorb health, for 100/10 sec fatigue?
+Paralyze 10 sec, absorb health, for dmg fatigue self
 
 !! Shadow
 Those born under the Shadow have the ability to fade at will, and to sense who is seeing them.
