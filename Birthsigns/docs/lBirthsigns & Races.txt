@@ -1,76 +1,76 @@
 lBirthsigns & Races
 
-!!Apprentice
+Apprentice
 Those born under the Apprentice are granted a large bonus to magicka while having a 50% weakness to magic. They possess the lesser power to boost all their magic skills.
 Fortify all Magic Schools 25
 200 Magicka
 50% Weakness to magic
 
-!! Lover
+Lover
 Those born under the lover are granted the power to command another person once per day.
 Command Humanoid
 # Reanimate would be nice, but then I need to figure out how to make it work with av latta
 
-!! Mage
+Mage
 Those born under the Mage are granted a medium bonus to magicka and faster magicka regeneration.
 Fortify 100
 Restore 2
 
-!! Thief
+Thief
 Those born under the Thief are granted a large bonus to luck. They have the ability to sense life in total darkness at will.
 Toggle Night Eye & Life Detect
 25 Luck
 
-!! Atronach
+Atronach
 Those born under the Atronach are granted a very large bonus to magicka and the ability to harmlessly absorb many spells, but bear the inability to regenerate magicka normally.
 300 Magicka
 Absorb 50
 Stunted
 
-!! Lord
+Lord
 Those born under the Lord possess the power to manipulate emotions. They get an inherent bonus to Personality, Speechcraft and Mercantile. The power of the Graybeard's Voice throws enemies off their feet.
 Rally/Demoralize/Frenzy/Calm Powers Mag 100
 Thuum
 10 Pers/Speech/Merc
 
-!! Lady
+Lady
 Those born under the Lady are granted a bonus to willpower and endurance, and the ability to breathe water. They possess the power to restore damaged attributes or cure disease and poison.
 10 Willpower
 10 Endurance
 Waterbreathing
 Ability Cure/Restore all Attributes
 
-!! Ritual
+Ritual
 Those born under the Ritual are granted a huge bonus to health, a small health regeneration and the ability to heal once per day. Their touch turns undead. 
 100 Health
 Restore 1
 Power Heal 250
 Lesser Power Turn undead
 
-!! Serpent
+Serpent
 Those born under the Serpent are granted immunity to poison. Their bite paralyzes enemies and steals some of their health.
 100% Poison
 Paralyze 10 sec, absorb health, for dmg fatigue self
 
-!! Shadow
+Shadow
 Those born under the Shadow have the ability to fade at will, and to sense who is seeing them.
 25% Chameleon Toggle
 Invis Power
 
-!! Steed
+Steed
 Those born under the Steed are granted much faster fatigue regeneration, as well as a bonus to speed. They have the ability to trade speed for more carry weight.
 Fortify Speed 10
 Restore Fatigue 2
 Feather toggle 200 for drain speed 50.
 
-!! Tower
+Tower
 Those born under the Tower are granted a small bonus to magicka and the ability to reflect melee and magic attacks. They can open hard locks once per day.
 Reflect Spell 10
 Reflect Dmg 10
 Magicka 50
 Open 90
 
-!! Warrior
+Warrior
 Those born under the Warrior are granted a bonus to strength and resistances to weapons and magic. They have the power to absorb an enemy's offensive ability, and to provoke nearby enemies.
 Resist Wep 10
 Resist Magic 25
@@ -78,52 +78,52 @@ Str 10
 
 
 
-!! Altmer
+Altmer
 25% Weakness Elements
 Resist Paralyze 75%
 100 Magicka
 
-!! Argonian
+Argonian
 Water Breathe
 Resist Poison 75%
 Restore Health 1 
 
-!! Bosmer
+Bosmer
 Beast Tongue Power Lvl 50
 Summon Arrow Power 10-25 bone arrows
 Resist Disease 75%
 
-!! Breton
+Breton
 50 Magicka
 Resist Magic 50%
 Shield Power
 
-!! Dunmer
+Dunmer
 Resist Fire 75%
 Summon Ancestor Guardian
 
-!! Imperial
+Imperial
 Charm Power
 Fortify Fatigue 50
 Restore Fatigue 1
 
-!! Khajiit
+Khajiit
 Night Eye Toggle
 Eye of Fear
 Resist Shock 75%
 Fortify Fatigue 50
 
-!! Nord
+Nord
 Resist Frost 75%
 Paralyze/Frost Dmg Touch Power
 
-!!Orc
+Orc
 Resist Magic 25%
 Fortify Health 50
 Adrenaline Rush
 
-!! Redguard
-Resist Weapons 10%
+Redguard
+Eesist Weapons 10%
 Fortify Health 50
 Adrenaline Rush
 

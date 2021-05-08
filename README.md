@@ -64,7 +64,7 @@ Plans: Block some of the forms off till later (lion and wisp and stuff are proba
 
 Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
 The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. Currently those gems are only found in the testinghall.     
-Plans: Add the gems to leveled lists (while making them unleveled), and adding some way to grind them to dust (preferably without relying on COBL).
+Plans: Add the gems to leveled lists (while making them unleveled), add output of additional dust chance in initital popup, refine messages, get rid of debug output.
 
 
 ## Respawning Ayleid Stones
@@ -76,13 +76,16 @@ Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) i
 
 Takes a few of the unused vanilla shivering isles weathers and puts them into the rotation.
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
-Nights are roughly 50% darker.
+Nights are roughly 50% darker.   
+    
+**This mod has been released.**
 
 
 ## Traveler's Tent
 
-This mod has been released on the nexus.   
-This version is adding some further development/fixes without proper time for testing. Currently:    
+This version is adding some further development/fixes without proper time for testing, which has not been added to the nexus version yet. Currently:    
 - Replaces Moveto command on tent interaction with a real door. 
 - Fixes the local map showing dummy interiors I used for decorating.
 - Added the scripted spell failsafe from this [article](https://www.nexusmods.com/oblivion/articles/44458/) to the mark companion spell.
+    
+**This mod has been released.**
