@@ -5,6 +5,14 @@ If I had the patience to actually work on anything.
 If you actually happen to find this, it's "use at your own risk" territory. Stuff might be in all stages from "raw idea" to "fully working but not willing to deal with people and release it". I'll try to mark known problems here, but be warned. 
 
 
+## A Rainbow of Treasaures - New Gems & Gem Dust
+
+Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
+The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
+Seems to be ready for release, needs a tiny bit of testing before. 
+Considering compatibility to other gem mods, but has low priority as they usually have their own grinding mechanic.
+
+
 ## Ambient Dungeons
 
 Changes the ambient light of a couple of Ayleid ruins to be slightly tinted. It's not randomized, so all interiors belonging to one ruin will have the same color. Recommended to import C.lights and NoMerge the rest in Wrye Bash. No issues. 
@@ -23,6 +31,7 @@ Update of the Bookworm mod, using ConScribe to make it possible to sync the read
 ## Calm Water
 
 Some pathetic attempt at more clear and transparent water, some very clear mountain lakes, some tinted interior waters as well as green swamp water. Not compatible with UL. As with all water transparencies, at the ocean (or other huge water bodies) it will look weird outside the rendered cells. 
+
 
 ## CTAddPose Custom ESP
 
@@ -53,20 +62,6 @@ Issues: DLC patches missing for upgrader, balancing untested on level 15+. Lockp
 Plan for DLC patches was to take one of the prepared quest scripts, edit it in a patch for that DLC to check for those quest objects. Patch loaded > Script will run. Patch not loaded > Script will just move on to the next. Just this way to preserve the non-obse requirement.
 
 
-## New Familiars
-
-Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.
-The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
-Plans: Block some of the forms off till later (lion and wisp and stuff are probably a bit too op early on.) Replace Imp with something? Because it keeps getting stuck. possibly elytra or baliwog or custom creature. Add some script so the buggers don't get stuck behind doors (or does it perhaps need some higer process setting).
-
-
-## New Gems
-
-Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
-The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
-Should be pretty much finished, need to find a good name, do a bit of testing and pack the assets in a bsa. 
-
-
 ## Respawning Ayleid Stones
 
 Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall. 
@@ -79,6 +74,12 @@ Mania/Dementia weather isn't clearly divided anymore, chances for the correspond
 Nights are roughly 50% darker.   
     
 **This mod has been released.**
+
+
+## This looks Familiar
+
+Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.
+The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
 
 
 ## Traveler's Tent

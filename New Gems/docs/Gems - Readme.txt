@@ -1,4 +1,4 @@
-New Gems
+A Rainbow of Treasure - New Gems & Gem Dust
 A modifcation for Oblivion with patch 1.2.0416 by Laulajatar.
 Requires OBSE & Shivering Isles
 Version 1.0
@@ -28,8 +28,8 @@ Lastly, many gems have been placed throughout the world, so they aren't just fou
 
 
 
-Known Issues
-------------
+Known Issues/Compatibility
+--------------------------
 
 Grinding only works with vanilla gems and gems added by this mod. 
 Compatibility with other mods is possible in the future, but not a high priority, as other mods I know of offer their own grinding mechanic.
