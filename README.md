@@ -63,8 +63,8 @@ Plans: Block some of the forms off till later (lion and wisp and stuff are proba
 ## New Gems
 
 Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
-The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. Currently those gems are only found in the testinghall.     
-Plans: Add the gems to leveled lists (while making them unleveled), add output of additional dust chance in initital popup, refine messages, get rid of debug output.
+The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
+Should be pretty much finished, need to find a good name, do a bit of testing and pack the assets in a bsa. 
 
 
 ## Respawning Ayleid Stones
