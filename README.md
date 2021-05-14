@@ -38,6 +38,13 @@ Some pathetic attempt at more clear and transparent water, some very clear mount
 To be used with this tutorial [Making your own one-mod pose collection](http://www.shrine-of-kynareth.de/making-your-own-one-mod-pose-collection).
 
 
+## Display Skill Perk Effects
+
+This mod adds detailed perk descriptions in skill tooltips. Supports some mods adding custom perks and customized texts. 
+
+**This mod has been released.**
+
+
 ## Dynamically Adjusted Darkness
 
 Uses a script (similar to the one in MOO) that changes the darkness of nights. Could also be used to make them brighter, but too low source values (example: NAO) result in a weird tint. 

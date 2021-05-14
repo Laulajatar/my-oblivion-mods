@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-05-13
+
+- Added Display Skill Perk Effects with version 1.3.3
+
 ## 2021-05-10
 
 - Oops, I had a changelog I guess

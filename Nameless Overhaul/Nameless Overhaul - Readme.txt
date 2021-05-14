@@ -11,7 +11,7 @@ My main goals were:
 - No OBSE required
 - No additional files beside the .esp(s) required
 - Vanilla scaling, but only to a certain point, then stopping
-- Fixing all the instances of "fear of missing out" like quest rewards
+- Fixing all the instances of having to look up optimal levels like quest rewards
 - Adding a few quality of life feature, like crafting lockpicks or updated sigil stones
 
 
@@ -25,14 +25,17 @@ DETAILED CHANGES
 + Hostile NPCs and Guards are now level capped, usually between level 20 and 30
 	Marauders are stronger than Bandits, Necromancers are stronger than Summoners and Vampires are the strongest
 	Boss Enemies remain uncapped
-+ Conjurer and Necromancer bosses now can drop enchanted weapons	
++ Conjurer and Necromancer bosses now can drop enchanted weapons
 + Some creatures and enemies remain unchanged:
 	Jailors remain unchanged for better compatibility with the UOP
+    Foresters remain unchanged for better compatibility with the UOP
+    The guards of the Arcane University remain unchanged for better compatibility with the UOP
 	Most named NPCs remain untouched
-	The Arena enemies have not been changed	
+	The Arena enemies have not been changed
 + Grummites now use Grummite Bows and the bows' stats were lowered to roughly match the stats of the Iron Bow
 + All those changes mean the game WILL be easier at higher levels, even if you didn't build your character perfectly. If you're looking for a higher difficulty, this isn't the mod for you
 + Most creature stats are unchanged, their levels just have been capped, usually at about 7 levels after they first spawn. If you're looking for some polished, rebalanced stat overhaul, this isn't the mod for you
+
 
 == Changes to Loot ==
 + Normal NPC enemies won't spawn with armor better than Chainmail and Silver (see below) and Weapons better than Silver
@@ -55,9 +58,10 @@ DETAILED CHANGES
 + Previously unsold clothing will now be sold at appropriate merchants
 + A clothing version of the "Bracers" was added to those merchants as well. Doesn't exactly look nice, but fixes the Wrist Irons being the only clothing piece for hands
 + One respawning set of wrist irons has been added to a container somewhere in the IC sewers
-+ Moon Sugar now drops in shady locations. Two Moon Sugar can be refined into Skooma with a Grinder
++ Moon Sugar now drops in shady locations. Moon Sugar can be refined into Skooma with a Grinder
 + Welkynd Stones are now super rare loot in Ayleid chests and normal loot in Ayleid boss chests, to ensure it is always possible to upgrade your quest items
 + Silver and Gold Veins as well as Clams now respawn 
++ Some more worthless loot items have been added, like ruined books or empty flasks, to give a bit more variety when opening the 54th container, looking for calipers
  
  
 == Changes to Magic ==
@@ -87,22 +91,34 @@ DETAILED CHANGES
 + After you've recieved your first set of Dark Seducer/Golden Saint armor, you can buy additional sets that will match your current level from Cutter and Dumag gro-Bonk, respectively
 	After you've finished the SI questline, the opposite armor will be available for purchase as well
 + You can donate a not-so-small sum at the Arcane University which will unlock Spellmaking and Enchanting at each guild hall without being a member. Progressing the MG questline will make the unlock cheaper for each completed quest (recommendations don't count). Once it's done, talk to different people in the guild halls to find the ones that offer this service
++ If you activate your horse while sneaking, you now get a menut hat allows you to:
+    Make the horse follow you
+    Make the horse wait at the current location
+    Release horse controls
+    Open saddle bags
+    THIS IS NOT FINAL, I need to test if the variable index mismatch is a problem, if it is, it will be removed again. 
++ Follow will work, even if you mount a different horse afterwards. The commanded horse will keep following you. 
++ Wait will work, even if you mount a different horse afterwards. The commanded horse will not return to stable.
++ The saddle bags have no carry limit. 
 
 
 == Crafting ==
-+ Certain merchants have an Attuned Soulgem for sale. You can put soul gems in to empty them if you caught a too small soul
++ Certain merchants have an Abyssal Soulgem for sale. You can put soul gems in to empty them if you caught a too small soul
 	This works for prefilled soulgems, too
-+ Certain alchemists have an Adaptable Grinder for sale. You can use it to grind bones to bonemeal and gems and pearls to dust, which can then be used for Alchemy
-+ Certain general merchants have Accurate Scissors for sale. You can use them to cut cloth into bandages, which work as a small over-time healing potion, for people who don't want to dabble in Alchemy or Restoration
++ Certain alchemists have an Adaptable Grinder for sale. You can use it to grind bones to bonemeal, pearls to dust, wheat grain to flour and moon sugar to skooma
++ Certain general merchants have Average Scissors for sale. You can use them to cut cloth into bandages, which work as a small over-time healing potion, for people who don't want to dabble in Alchemy or Restoration
 	The higher your level, the more powerful the created bandages are
 	The bandages are not supposed to make a real difference in combat, but meant to replace the spamming of heals after combat
-+ Certain general merchants have an Altered Hammer for sale. You can use it to make lockpicks from metal clutter like tongs, calipers and shears
+    If you use dirty linen to create bandages, there is a chance that you'll contract a random disease when using them
+    To avoid unnecessary scripts, those bandages are currently treated as potions, i.e. they make potion sounds and are calculated in the potion limit
++ Certain general merchants have an Adamant Hammer for sale. You can use it to make lockpicks from metal clutter like tongs, calipers and shears
 + Yes, those tools all start with A so they are easier to find in the inventory :D
 
+
 == Other == 
-+ Weapons will now remain in the inventory of slain enemies instead of rolling off, making it easier to loot them
 + Restoration now increases a bit faster and Alchemy increases a bit slower
 + Since enchanting is now easier to come by, even for non Mages Guild characters, Sigil Stones have been overhauled to have some more desirable effects. Effects that did not scale and were common enough on random equipment (for example Water Walking, Night Eye) have been removed and several stones now have multiple effects (for exaple Fire Damage + Weakness to Fire, Fire Shield + Spell Absorption)
+
 
 == Optional == 
 An optional esp is available to lessen the levelup requirements. You would get a +5 attribute increase at 5 increased skills rather than 10, while keeping the vanilla leveling system
@@ -115,6 +131,24 @@ An optional esp is available to give all magic schools one more starting spell t
 	Mysticism recieves a Novice Soul Trap spell that can't be purchased otherwise*
 	Restoration recieves a Novice Restore Fatigue spell
 *Those 2 spells are not sold since every city already sells the apprentice version of these spells. All other start spells are novice versions, so I didn't want to hand out higher level spells
+
+
+== DLC Patches ==
+
+Most of those patches are highly optional. 
+If you are using a Bashed Patch, all of them can be safely merged & deactivated.
+The important one:
++ Patch for Horse Armor
+    Patches all the scripts
+    Adds the mount control menu to the old nag
+    THIS IS NOT FINAL, I need to test if the variable index mismatch is a problem, if it is, it will be removed again. 
++ Patch for Battlehorn Castle
+    Adds the two rewards to the upgrader tool
++ Patch for Mehrunes Dagger
+    Adds all the items to the upgrader tool
++ Patch for Knights of the Nine
+    Adds only Umarils sword to the upgrader tool
+    All other items can be upgraded in the DLC itself
 
 	
 
@@ -138,6 +172,54 @@ The Scisssors are used to cut Cloth into Bandages. It works with "Cloth" and "Fo
 The Grinder is used to grind Bones into Bone Meal as well as Gems and Pearls into dust. The amount of dust you get depends on the quality of the item that you put in. To use the Grinder, put the items you want to grind and close the container and your inventory. After a moment you will recieve your dust. 
 
 The Arcane Enhancer is used to upgrade leveled quest rewards. Put the item you want to upgrade in along with a Welkynd Stone and close the container and your inventory. If you meet the level requirements for the next best item, you'll recieve an enhanced version, otherwise you will get your items back. If you put several items and Weklynd Stones in, you can upgrade in bulk.
+
+1 50 
+2 45 90
+3 40 120
+4 35 140
+5 30 150
+
+
+Dried Flowers
+Empty Potion Bottle
+Empty Poison Bottle
+Brick
+Stamper
+Honey
+Blue Cheese Wedge
+Orange Cheese Wedge
+Creamy Cheese Wedge
+Yellow Cheese Wedge
+PIe?
+ms06logemmamay
+octavo01-3
+note01
+se04chaliceofreversal
+lowerclass/sedementia/shirt_gnd.nif and dark, with robe hood icons
+
+
+Clutter\Books\Octavo02.NIF
+Clutter\IconBook9.dds
+Clutter\Books\Octavo01.NIF
+Clutter\IconBook7.dds
+Clutter\Books\Octavo03.NIF
+Clutter\IconBook8.dds
+
+Clutter\Potions\PotionPoison.NIF
+Clutter\Potions\IconPotionPoison01.dds
+Clutter\Potions\Potion01.NIF
+Clutter\Potions\IconPotion01.dds
+
+Architecture\StoneWall\StoneWallStone02.NIF
+Clutter\IconBrick02.dds
+
+Clutter\SoulGemBlack.NIF
+Clutter\Soulgems\SoulGemBlack01.dds
+
+
+LaulaHorseTokenReturn
+LaulaSaddlebagsLeyawiinRef
+LaulaHorseHomeAnvilRef
 
 Archmage Hood
  1	5 Magicka, 1 Absorb
