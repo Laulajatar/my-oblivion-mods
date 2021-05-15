@@ -1,5 +1,15 @@
 # Changelog
 
+## 2021-05-15
+
+- I am so bad at this
+- Finally added all the DLC patches to Nameless Overhaul
+- Also added the optional leveling module
+- It is now feature complete - for now
+- Requires testing
+- Changed esp and bsa name of the New Gems mod
+- Added Water Walking to the effect of Pearl Dust, like in NO
+
 ## 2021-05-13
 
 - Added Display Skill Perk Effects with version 1.3.3

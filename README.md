@@ -65,8 +65,7 @@ Allows you to keep increasing skills for attribute bonuses before going to sleep
 ## Nameless Overhaul
 
 Close to vanilla overhaul that keeps a lot of vanilla scaling but puts an end to endless leveling enenmies and bandits in glass armor. Includes some quality of life features like artifact upgrading and simple bandage/lockpick crafting. 
-Issues: DLC patches missing for upgrader, balancing untested on level 15+. Lockpicks are too easy to get with crafting. Pondering making the bandages a misc item instead of a potion, that summons a spellcaster only if out of combat. 
-Plan for DLC patches was to take one of the prepared quest scripts, edit it in a patch for that DLC to check for those quest objects. Patch loaded > Script will run. Patch not loaded > Script will just move on to the next. Just this way to preserve the non-obse requirement.
+Issues: All planned features are implemented. Balancing untested on level 15+. 
 
 
 ## Respawning Ayleid Stones

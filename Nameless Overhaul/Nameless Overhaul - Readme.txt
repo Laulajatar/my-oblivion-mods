@@ -91,15 +91,6 @@ DETAILED CHANGES
 + After you've recieved your first set of Dark Seducer/Golden Saint armor, you can buy additional sets that will match your current level from Cutter and Dumag gro-Bonk, respectively
 	After you've finished the SI questline, the opposite armor will be available for purchase as well
 + You can donate a not-so-small sum at the Arcane University which will unlock Spellmaking and Enchanting at each guild hall without being a member. Progressing the MG questline will make the unlock cheaper for each completed quest (recommendations don't count). Once it's done, talk to different people in the guild halls to find the ones that offer this service
-+ If you activate your horse while sneaking, you now get a menut hat allows you to:
-    Make the horse follow you
-    Make the horse wait at the current location
-    Release horse controls
-    Open saddle bags
-    THIS IS NOT FINAL, I need to test if the variable index mismatch is a problem, if it is, it will be removed again. 
-+ Follow will work, even if you mount a different horse afterwards. The commanded horse will keep following you. 
-+ Wait will work, even if you mount a different horse afterwards. The commanded horse will not return to stable.
-+ The saddle bags have no carry limit. 
 
 
 == Crafting ==
@@ -135,17 +126,11 @@ An optional esp is available to give all magic schools one more starting spell t
 
 == DLC Patches ==
 
-Most of those patches are highly optional. 
+All of those patches are highly optional. All they do is add the leveled rewards from the DLCs to the list of the upgrade tool. If you don't plan to use it, you don't need to install them and you could also install them at a later time if you change your min. 
 If you are using a Bashed Patch, all of them can be safely merged & deactivated.
-The important one:
-+ Patch for Horse Armor
-    Patches all the scripts
-    Adds the mount control menu to the old nag
-    THIS IS NOT FINAL, I need to test if the variable index mismatch is a problem, if it is, it will be removed again. 
 + Patch for Battlehorn Castle
-    Adds the two rewards to the upgrader tool
 + Patch for Mehrunes Dagger
-    Adds all the items to the upgrader tool
++ Patch for Vile Lair
 + Patch for Knights of the Nine
     Adds only Umarils sword to the upgrader tool
     All other items can be upgraded in the DLC itself
