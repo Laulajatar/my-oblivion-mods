@@ -9,8 +9,9 @@ If you actually happen to find this, it's "use at your own risk" territory. Stuf
 
 Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
 The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
-Seems to be ready for release, needs a tiny bit of testing before. 
 Considering compatibility to other gem mods, but has low priority as they usually have their own grinding mechanic.
+
+**This mod has been released.**
 
 
 ## Ambient Dungeons

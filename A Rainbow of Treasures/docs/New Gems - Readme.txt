@@ -46,8 +46,9 @@ Except: Do NOT load this after Maskar's Oblivion Overhaul. Load order with MOO d
 Install
 -------
 
-Drop lGems.esp and lGems.bsa in your data folder. 
+Drop lNewGems.esp and lNewGems.bsa in your data folder. 
 I suggest using a mod manager for this. Wrye Bash is my one true love.
+Rebuild your Bashed Patch if using (if not.. why?) to merge the leveled lists.
 
 
 
