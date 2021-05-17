@@ -4,13 +4,13 @@ ABOUT
 
 There are a lot of other Overhauls out there already and they all do their job well. I've used some of them in my years of playing and I currently love Maskar's Overhaul. In fact, I copied a few things from MOO because they were just too good and I didn't want to live without (bandages and imbuement say hi). If you enjoy having new things in your game (mostly enemies and gear) there is no reason to even look at this, because almost everything my overhaul does has been done before.
 
-However, when testing mods I wanted an overhaul where I knew exactly what was changed. I wanted basically vanilla progression, but with a cap on things, so I don't run into level 40 goblins or bandits in glass armor. So I made my own. Then I changed a few other things that bothered me. And now I decided to share it, because why not. 
+However, when testing mods I wanted an overhaul where I knew exactly what was changed. I wanted basically vanilla progression, but with a cap on things, so I don't run into level 40 goblins or bandits in glass armor. So I made my own. Then I changed a few other things that bothered me, and I added a few things that I just didn't want to leave behind. And now I decided to share it, because why not. 
 
 My main goals were: 
 
 - No OBSE required
 - No additional files beside the .esp(s) required
-- Vanilla scaling, but only to a certain point, then stopping
+- Vanilla scaling, but no more vanishing rats or endlessly scaling goblins
 - Fixing all the instances of having to look up optimal levels like quest rewards
 - Adding a few quality of life feature, like crafting lockpicks or updated sigil stones
 
@@ -109,6 +109,16 @@ DETAILED CHANGES
 == Other == 
 + Restoration now increases a bit faster and Alchemy increases a bit slower
 + Since enchanting is now easier to come by, even for non Mages Guild characters, Sigil Stones have been overhauled to have some more desirable effects. Effects that did not scale and were common enough on random equipment (for example Water Walking, Night Eye) have been removed and several stones now have multiple effects (for exaple Fire Damage + Weakness to Fire, Fire Shield + Spell Absorption)
++ Simple horse controls for vanilla player horses
+    The same merchants where you can get the scissors will also sometimes sell an Alluring Carrot
+    Activating it when near a player owned horse that you've mounted before will give you the option to give some commands
+    You can make the horse follow you
+    You can make the horse wait at its current location (if it's the last ridden horse, it will still travel with you when fast traveling)
+    You can open its saddle bags for storing loot (the bags have no carry limit) 
+    You can release its controls, so it will walk back home if it's not the last ridden horse
++ This currently doesn't work for armored horses, a patch will be made if it turns out functional
++ This might not work if you have/had another mod that edits the horses. Nothing bad should happen, the carrot might just fail to recognize that a horse belongs to you.
++ You can hotkey the carrot to easily use it without opening your menu.
 
 
 == Optional == 

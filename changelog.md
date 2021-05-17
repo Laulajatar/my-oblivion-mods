@@ -1,5 +1,14 @@
 # Changelog
 
+## 2021-05-17
+
+- Updated Nameless Overhaul
+- Put in a new version of horse controls that doesn't edit the horse script
+- Patch for DLC Horse Armor is still missing
+- It's untested, might not work if other mods have been editing horse script before
+- Renamed a few Editor IDs to match the current item name
+- Gave the slaughterfish fin to the slaughterfishes as drop
+
 ## 2021-05-15
 
 - I am so bad at this
