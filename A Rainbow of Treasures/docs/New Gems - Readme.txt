@@ -69,5 +69,9 @@ If you want to use those gems in your own mod, you need to use the meshes & text
 Version History
 ---------------
 
+1.1
+Reduced all gem weights to 0.1
+Added "Names" bash tag
+
 1.0
 Initial Release

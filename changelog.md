@@ -1,5 +1,17 @@
 # Changelog
 
+## 2021-05-21
+
+- Updated Nameless Overhaul
+- Various horse control script fixes
+- Added patch for DLC Horse Armor
+- Refined Readme
+- Added fine steel weapons to lists/loot/npcs
+- Added some more wild horses and they do now respawn
+- Updated New Gems
+- All weights now 0.1
+- Added names bash tag
+
 ## 2021-05-17
 
 - Updated Nameless Overhaul
