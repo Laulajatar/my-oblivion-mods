@@ -1,0 +1,285 @@
+==========================================
+
+NOTES 
+
+==========================================
+		
+The Attuned Soulgem is used to empty soulgems if you caught a too small soul and want to try again. Put the soul gems you want to empty in and close the container and your inventory. After a moment you will recieve your emtpy soul gems.
+
+The Scisssors are used to cut Cloth into Bandages. It works with "Cloth" and "Folded Cloth" but not with any other kind of fabric based products like clothes. To use the Scissors, put the Cloth you want to cut up in and close the container and your inventory. After a moment you will recieve your Bandages. You can find them in the potion menu.
+
+The Grinder is used to grind Bones into Bone Meal as well as Gems and Pearls into dust. The amount of dust you get depends on the quality of the item that you put in. To use the Grinder, put the items you want to grind and close the container and your inventory. After a moment you will recieve your dust. 
+
+The Arcane Enhancer is used to upgrade leveled quest rewards. Put the item you want to upgrade in along with a Welkynd Stone and close the container and your inventory. If you meet the level requirements for the next best item, you'll recieve an enhanced version, otherwise you will get your items back. If you put several items and Weklynd Stones in, you can upgrade in bulk.
+
+1 50 
+2 45 90
+3 40 120
+4 35 140
+5 30 150
+
+
+Dried Flowers
+Empty Potion Bottle
+Empty Poison Bottle
+Brick
+Stamper
+Honey
+Blue Cheese Wedge
+Orange Cheese Wedge
+Creamy Cheese Wedge
+Yellow Cheese Wedge
+PIe?
+ms06logemmamay
+octavo01-3
+note01
+se04chaliceofreversal
+lowerclass/sedementia/shirt_gnd.nif and dark, with robe hood icons
+
+
+Clutter\Books\Octavo02.NIF
+Clutter\IconBook9.dds
+Clutter\Books\Octavo01.NIF
+Clutter\IconBook7.dds
+Clutter\Books\Octavo03.NIF
+Clutter\IconBook8.dds
+
+Clutter\Potions\PotionPoison.NIF
+Clutter\Potions\IconPotionPoison01.dds
+Clutter\Potions\Potion01.NIF
+Clutter\Potions\IconPotion01.dds
+
+Architecture\StoneWall\StoneWallStone02.NIF
+Clutter\IconBrick02.dds
+
+Clutter\SoulGemBlack.NIF
+Clutter\Soulgems\SoulGemBlack01.dds
+
+
+LaulaHorseTokenReturn
+LaulaSaddlebagsLeyawiinRef
+LaulaHorseHomeAnvilRef
+
+Archmage Hood
+ 1	5 Magicka, 1 Absorb
+ 5	10 Magicka, 2 Absorb
+10  20 Magicka, 4 Absorb
+15  30 Magicka, 6 Absorb
+20  40 Magicka, 8 Absorb
+25  50 Magicka, 10 Absorb
+
+Archmage Robe
+ 1	10 Magicka, 2 Absorb, 5 Resist Wep
+ 5	20 Magicka, 4 Absorb, 7 Resist Wep 
+10	40 Magicka, 8 Absorb, 9 Resist Wep
+15  60 Magicka, 12 Absorb, 11 Resist Wep
+20  80 Magicka, 16 Absorb, 13 Resist Wep
+25  100 Magicka, 20 Absorb, 15 Resist Wep
+
+https://cs.elderscrolls.com/index.php?title=FMagicLevelMagnitudeMult
+https://cs.elderscrolls.com/index.php?title=FDamageWeaponMult
+https://cs.elderscrolls.com/index.php?title=FArrowSpeedMult
+https://cs.elderscrolls.com/index.php?title=IArrowInventoryChance
+https://cs.elderscrolls.com/index.php?title=ILowLevelNPCMaxLevel
+
+AbTroll "Troll Abilities" [SPEL:0002B545]
+AbTrollEasy "Troll Abilities" [SPEL:000CA105]
+AbTrollHard "Troll Abilities" [SPEL:000CA106]
+321
+
+
+LL0LootMicroTreasure15 [LVLI:0003FAEE]
+LL1LootSoulGems50 [LVLI:0006EEF9]
+LL2LootJewelryMagic50 [LVLI:000872A2]
+LL2LootPotionsMagic50 [LVLI:000A6F56]
+
+
+goblin 1
+skirmish 4
+berserk 8 
+shaman 13-20
+warlord 18-25
+
+goblin 10
+others 16
+shaman 22
+warlord 28
+		
+Pearl 		Water Breathing	Water Walking	Dispel			Cure Disease	2
+Ruby		Res Health 		Dmg Health 		Fortify Health 	Fire Shield		10
+Topaz		Light 			Chameleon		Silence 		Paralyze		5
+Emerald		Res Fatigue		Dmg Fatigue		Fortify Fatigue Shock Shield	20
+Sapphire	Res Mana		Dmg Mana		Fortify Mana 	Frost Shield	15
+Diamond		Fortify Luck	Shield			Reflect Dmg		Reflect Spell	25
+
+Bear 	Pelt	Meat (Boar Meat )
+Boar 	Meat	Pelt (Bear Pelt)
+Deer 	Meat	Hide (Lion Pelt)
+Dog  	Nothing	Pelt (Wolf Pelt)
+Lion 	Pelt	Heart (Human Heart )
+Crab 	Meat	Shell Piece (Gnarl Bark)
+Clam	Pearl	Meat (Crab Meat )
+Rat  	Meat	Incisors (Ogre Teeth)
+Wolf 	Pelt 	Fang (Hound Tooth )
+Fish 	Scales 	Fins (Scalon Fin)
+
+Anvil Spell Thaurron
+Anvil Enchant Marc Gulitte
+Bravil Spell Delphine Jend
+Bravil Enchant Ita Rienus
+Bruma Spell Selena Orania
+Bruma Enchant Volanaro
+Cheydinhal Spell Trayvond the Redguard
+Cheydinhal Enchant Uurwen
+Chorrol Spell Alberic Litte
+Chorrol Enchant Contumeliorus Florius
+Leyawiin Spell Alves Uvenim
+Leyawiin Enchant Agata
+Skingrad Spell Druja
+Skingrad Enchant Vigge the Cautious
+
+
+
+Bandits around lvl 23
+Marauders around lvl 28
+Vampires around lvl 32
+Conjurers around lvl 23
+Necromancers around lvl 28
+Guards lvl 30
+Palace Guards lvl 35
+
+LaulaUOPForesterDeerFixScript [SCPT:030084A8]
+LaulaUOPImperialLegionForesterFixScript [SCPT:030084A9]
+LaulaUOPDeathAnimFix [SCPT:030084AA]
+
+
+
+scn UOPForesterDeerFixScript
+
+; Works with the Forester fix script which removes Venison from deer so that other foresters don't target the same deer
+; This script puts the Venison back when the deer dies so the first Forester can retrieve it
+; Copied from the Unofficial Oblivion Patch to prevent conflicts (or rather, the loss of this fix) when the user is not using the patch
+
+Begin OnDeath
+	RemoveItem Venison 2
+	AddItem Venison 1
+End
+
+scn UOPImperialLegionForesterFixScript
+
+; Stops Imperial Legion Foresters from fighting each other if there's a deer in the area
+; Copied from the Unofficial Oblivion Patch to prevent conflicts (or rather, the loss of this fix) when the user is not using the patch
+
+ref target
+
+Begin OnStartCombat
+
+	PayFineThief
+	set target to GetCombatTarget
+	if target != player
+		target.RemoveItem Venison 99
+	endif
+
+End
+
+Begin GameMode
+
+	if IsInCombat == 1
+		set target to GetCombatTarget
+		if target.IsGuard == 1
+			target.SCAOnActor
+			StopCombat
+			EVP
+		endif
+	endif
+
+
+End
+
+
+
+scn UOPDeathAnimFix
+
+; Copied from the Unofficial Oblivion Patch to prevent conflicts (or rather, the loss of this fix) when the user is not using the patch
+
+Float Timer
+Short Dead
+
+Begin GameMode
+	if Dead
+		if Timer > 0
+			set Timer to Timer - GetSecondsPassed
+		else
+			if isAnimPlaying
+				PlayGroup Death 1
+				set Timer to 4
+			else
+				set Dead to 0
+			endif
+		endif
+	endif
+End
+
+Begin OnDeath
+set Dead to 1
+set Timer to 4
+End
+
+
+LaulaHeavyMithrilBoots "Heavy Mithril Boots" [ARMO:030076F0]
+LaulaEnchHeavyMithrilBootsElements "Boots of the Elements" [ARMO:030076F6]
+LaulaEnchHeavyMithrilBootsFeather "Boots of Feather" [ARMO:030076F7]
+
+LaulaHeavyMithrilCuirass "Heavy Mithril Cuirass" [ARMO:030076F1]
+LaulaEnchHeavyMithrilCuirassFortHeavyArmor "Soldier's Cuirass" [ARMO:030076F9]
+LaulaEnchHeavyMithrilCuirassResistNormalWeapons "Bladebreaker Cuirass" [ARMO:030076F8]
+
+LaulaHeavyMithrilGauntlets "Heavy Mithril Gauntlets" [ARMO:030076F2]
+LaulaEnchHeavyMithrilGauntletsFortArmorer "Gauntles of the Forge" [ARMO:030076FA]
+LaulaEnchHeavyMithrilGauntletsResistFrost "Northern Gauntlets" [ARMO:030076FB]
+
+LaulaHeavyMithrilGreaves "Heavy Mithril Greaves" [ARMO:030076F3]
+LaulaEnchHeavyMithrilGreavesResistFire "Greaves of Oblivion" [ARMO:030076FD]
+LaulaEnchHeavyMithrilGreavesSpellAbsorption "Magebane Greaves" [ARMO:030076FC]
+
+LaulaHeavyMithrilHelmet "Heavy Mithril Helmet" [ARMO:030076F4]
+LaulaEnchHeavyMithrilHelmetDetectLife "Tracker's Helmet" [ARMO:030076FE]
+LaulaEnchHeavyMithrilHelmetFortMagicka "Helmet of the Mage" [ARMO:030076FF]
+
+LaulaHeavyMithrilShield "Heavy Mithril Shield" [ARMO:030076F5]
+LaulaEnchHeavyMithrilShieldFortBlock "Shield of Protection" [ARMO:03007700]
+LaulaEnchHeavyMithrilShieldLight "Shield of the Sun" [ARMO:03007701]
+
+
+LaulaPitBoots "Cured Leather Boots" [ARMO:03000ED3]
+LaulaEnchLeatherBootsWaterwalking "Seawalking Boots" [ARMO:03001003]
+LaulaEnchLeatherBootsOlympian "Boots of the Cat" [ARMO:03001002]
+
+LaulaPitCuirass "Cured Leather Cuirass" [ARMO:03000ED4]
+LaulaEnchLeatherCuirassCameleon "Cuirass of Shadows" [ARMO:03001004]
+LaulaEnchLeatherCuirassResistNormalWeapons "Swordbane Cuirass" [ARMO:03001005]
+
+LaulaPitGauntlets "Cured Leather Gauntlets" [ARMO:03000ED5]
+LaulaEnchLeatherGauntletsFortMarksman "Marksman Gauntlets" [ARMO:03001007]
+LaulaEnchLeatherGauntletsBattlemage "Gauntlets of the Spell~sword" [ARMO:03001006]
+
+LaulaPitGreaves "Cured Leather Greaves" [ARMO:03000ED6]
+LaulaEnchLeatherGreavesFortAcrobatics "Greaves of Acrobatics" [ARMO:03001008]
+LaulaEnchLeatherGreavesFortLightArmor "Greaves of Talent" [ARMO:03001009]
+
+LaulaPitHelmet "Cured Leather Helmet" [ARMO:03000ED7]
+LaulaEnchLeatherHelmetDetectLife "Helmet of the Tracker" [ARMO:0300100A]
+LaulaEnchLeatherHelmetResistMagic "Magebane Helmet" [ARMO:0300100B]
+
+
+
+Arrow6Glass "Glass Arrow" [AMMO:00022BE1]
+Arrow7Ebony "Ebony Arrow" [AMMO:0001EFD5]
+
+
+Lvl	Str	Dur	Sum		
+1	1	50	50		
+10	2	45	90	40	-5
+20	3	40	120	30	-5
+30	4	35	140	20	-5
+40+	5	30	150	10	-5
