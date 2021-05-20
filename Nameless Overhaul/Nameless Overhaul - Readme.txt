@@ -20,6 +20,8 @@ DETAILED CHANGES
 == Changes to Enemies ==
 + Weaker creatures now won't stop spawning once the player reaches a higher level. You will always encounter rats and skeletons, but on level 1 you still won't see high level creatures
 + Creatures that before never stopped leveling with the player are now capped after a certain level
+    Some creatures that naturally would live in packs now can spawn in groups at higher levels
+    Affected enemies are rats, wolves, boars, imps and trolls
 + Goblins living in tribes are now capped as well, but still quite stronger than their tribeless counterparts
 + Most animals now drop both one ingredient (like meat) and one trophy (like pelt) to make hunting a bit more worthwile
 + Hostile NPCs and Guards are now level capped, usually between level 20 and 30
@@ -49,6 +51,8 @@ DETAILED CHANGES
 + For more variety, the unique Amelion Armor set has been added to the Heavy Armor leveled lists as "Silver Armor" with the same stats as Dwemer Armor
 	This armor drops in both unenchanted and enchanted versions
 	The original Amelion Armor is still a light armor set and was unchanged
++ Fine Steel weapons now can be found on enemies and in loot, instead of only being available in shops
+    Enchanted variants of Fine Steel weapons were added as well
 + Imperial Watch armor is now playable. Disclaimer: I don't condone killing the watch to aquire it
 + You can now get a clothing version of the Arena Rainment that has the same enchantment and model as the Light Armor version 
 	You can recieve it from Owyn and find it in the normal spots
@@ -136,7 +140,7 @@ An optional esp is available to give all magic schools one more starting spell t
 
 == DLC Patches ==
 
-All of those patches are highly optional. All they do is add the leveled rewards from the DLCs to the list of the upgrade tool. If you don't plan to use it, you don't need to install them and you could also install them at a later time if you change your min. 
+All of those patches are highly optional. All most of them do is add the leveled rewards from the DLCs to the list of the upgrade tool. If you don't plan to use it, you don't need to install them and you could also install them at a later time if you change your min. 
 If you are using a Bashed Patch, all of them can be safely merged & deactivated.
 + Patch for Battlehorn Castle
 + Patch for Mehrunes Dagger
@@ -144,14 +148,16 @@ If you are using a Bashed Patch, all of them can be safely merged & deactivated.
 + Patch for Knights of the Nine
     Adds only Umarils sword to the upgrader tool
     All other items can be upgraded in the DLC itself
++ Patch for Horse Armor
+    Makes the Alluring Carrot work with armored horses as well
 
 	
 
 == Requirements == 
 This mod requires the latest Oblivion Patch v1.2.0416 with Shivering Isles (for example GotY edition, Steam, GOG)
 OBSE is NOT required
-KotN and the other small DLCs are neither required nor supported at the moment
-It is strongly recommended to use the Unofficial Oblivion Patch and Unofficial Shivering Isles Patch as well, as they fix numerous bugs in the game that might otherwise cause problems. Whenever Nameless Overhaul touches the same records, changes of the UOP have been included where possible. 
+KotN and the other small DLCs are not required
+It is strongly recommended to use the Unofficial Oblivion Patch and Unofficial Shivering Isles Patch as well, as they fix numerous bugs in the game that might otherwise cause problems. Whenever Nameless Overhaul touches the same records, changes of the UOP have been included. 
 
 
 ==========================================
