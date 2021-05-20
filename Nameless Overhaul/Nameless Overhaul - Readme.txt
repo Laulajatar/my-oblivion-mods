@@ -22,6 +22,9 @@ DETAILED CHANGES
 + Creatures that before never stopped leveling with the player are now capped after a certain level
     Some creatures that naturally would live in packs now can spawn in groups at higher levels
     Affected enemies are rats, wolves, boars, imps and trolls
+    At the moment, those group spawns will only happen in the overworld, not in dungeons
++ Wild horses can now spawn in all 5 different vanilla color variants and respawn if killed
+    They drop horse meat with the same alchemical effects as venison
 + Goblins living in tribes are now capped as well, but still quite stronger than their tribeless counterparts
 + Most animals now drop both one ingredient (like meat) and one trophy (like pelt) to make hunting a bit more worthwile
 + Hostile NPCs and Guards are now level capped, usually between level 20 and 30
@@ -53,6 +56,7 @@ DETAILED CHANGES
 	The original Amelion Armor is still a light armor set and was unchanged
 + Fine Steel weapons now can be found on enemies and in loot, instead of only being available in shops
     Enchanted variants of Fine Steel weapons were added as well
+    The model for the fine steel bow is the same as the model for the normal steel bow
 + Imperial Watch armor is now playable. Disclaimer: I don't condone killing the watch to aquire it
 + You can now get a clothing version of the Arena Rainment that has the same enchantment and model as the Light Armor version 
 	You can recieve it from Owyn and find it in the normal spots
