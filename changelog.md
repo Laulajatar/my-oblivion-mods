@@ -1,5 +1,12 @@
 # Changelog
 
+## 2021-05-22
+
+- Added short descriptions to each mod's folder
+- Updated a bug that could happen on Fog of War if fog near was > fog far
+- Added sunglare to graphic settings
+- Updated OR settings a bit. Tried to do it less vibrant, probably too pale now AHHHH
+
 ## 2021-05-21
 
 - Updated Nameless Overhaul
