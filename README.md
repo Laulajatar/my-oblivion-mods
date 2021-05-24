@@ -161,3 +161,11 @@ This version is adding some further development/fixes without proper time for te
 - Added the scripted spell failsafe from this [article](https://www.nexusmods.com/oblivion/articles/44458/) to the mark companion spell.
     
 **This mod has been released.**
+
+
+## Used Old Map for Shivering Isles
+
+I've always used the Old Map or Improved Used Map for my Cyrodiil map and I was missing a similar option for the Shivering Isles, so I made one (or six). 
+
+**This mod has been released.**
+
