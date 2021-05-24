@@ -7,7 +7,7 @@ If you actually happen to find this, it's "use at your own risk" territory. Stuf
 **If both, a bsa and loose files exist, only one is needed.**
 
 
-## [A Rainbow of Treasaures - New Gems & Gem Dust](A Rainbow of Treasures/Readme.md)
+## A Rainbow of Treasaures - New Gems & Gem Dust
 
 Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
 The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
@@ -70,11 +70,25 @@ Was a request on reddit. For players who don't like how the lod looks and basica
 *Current issues:* None that I know of.
 
 
+## Morrowind-like Health
+
+This mod makes it so waiting no longer regenerates all health at once. It regenerates health by 10% Endurance per hour, like in Morrowind. 
+
+**This mod has been released.**
+
+
 ## Morrowind-like Leveling
 
 Allows you to keep increasing skills for attribute bonuses before going to sleep, even after the game told you you are ready to level up. Can optionally allow minor and spec skills to have impact on leveling, too. Can optionally make luck level and fame/infamy dependent. Can optionally implement retroactive health.   
 Should be fully functional on new game, will react unpredictable if adding to a running game with outstanding levelups (just don't), might react unpredictable if leveling in tutorial too much (gotta check how it behaves at the gate, perhaps just suspend until player exists).   
 *Current issues:* If letting the mod calculate luck, it is still possible to raise luck at levelup, this point will be instantly lost afterwards. 
+
+
+## Morrowind-like Magicka
+
+This mod stops Magicka regeneration. You'll have to rest, wait or use potions/absorb to regain Magicka, like in Morrowind. Optionally turn on Willpower/Intelligence only based regeneration. 
+
+**This mod has been released.**
 
 
 ## Nameless Overhaul
