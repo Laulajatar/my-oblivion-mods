@@ -1,4 +1,5 @@
-A Familiar Mod
+This looks Familiar
+A familiar summon mod
 
 A modifcation for Oblivion with patch 1.2.0416 by Laulajatar.
 Requires OBSE
@@ -16,7 +17,7 @@ This mod lets you summon a permanent familiar that will follow you until it dies
 How to use
 ----------
 
-At game start, the book to learn the spell from will be placed randomly in one of 3 Ayleid ruins. It will be placed on top of a stone block beside a large Ayleid chest, usually in a boss room. 
+At game start, the book to learn the spell from will be placed randomly in one of 6 Ayleid ruins. It will be placed on top of a stone block beside a large Ayleid chest, usually in a boss room. 
 
 You can also enable in the ini that the spell will be added to you on game start. In this case, no books can be found. 
 
