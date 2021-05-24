@@ -84,6 +84,13 @@ This mod allows you to remove souls from soul gems. Right clicking on any soul g
 **This mod has been released.**
 
 
+## Let there be Flowers
+
+This mod adds some flowers to a few ground textures. For this to work as intended, it's necessary to raise the grass limit per texture (iMaxGrassTypesPerTexure) in the Oblivion ini - 5 should be more than enough. You can find your ini in My Documents\My Games\Oblivion. With the vanilla limit of 2, some flowers just won't show up.
+
+**This mod has been released.**
+
+
 ## Morrowind-like Health
 
 This mod makes it so waiting no longer regenerates all health at once. It regenerates health by 10% Endurance per hour, like in Morrowind. 
