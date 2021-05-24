@@ -4,6 +4,8 @@ If I had the patience to actually work on anything.
 
 If you actually happen to find this, it's "use at your own risk" territory. Stuff might be in all stages from "raw idea" to "fully working but not willing to deal with people and release it". I'll try to mark known problems here, but be warned. 
 
+**If both, a bsa and loose files exist, only one is needed.**
+
 
 ## A Rainbow of Treasaures - New Gems & Gem Dust
 
@@ -16,27 +18,35 @@ Considering compatibility to other gem mods, but has low priority as they usuall
 
 ## Ambient Dungeons
 
-Changes the ambient light of a couple of Ayleid ruins to be slightly tinted. It's not randomized, so all interiors belonging to one ruin will have the same color. Recommended to import C.lights and NoMerge the rest in Wrye Bash. No issues. 
+Changes the ambient light of a couple of Ayleid ruins to be slightly tinted. It's not randomized, so all interiors belonging to one ruin will have the same color. Recommended to import C.lights and NoMerge the rest in Wrye Bash.   
+*Current issues:* None.
 
 
 ## Birthsigns
 
-Just a personal rebalance of birthsigns/race abilities, loosely inspired by bgBalance. 
+Just a personal rebalance of birthsigns/race abilities, loosely inspired by bgBalance.   
+*Current issues:* None.
 
 
 ## Bookworm
 
-Update of the Bookworm mod, using ConScribe to make it possible to sync the read progress across several played characters. No known issues, but as I don't play mutiple characters (or, uh, play at all tbh) it's not tested. 
+Update of the Bookworm mod, using ConScribe to make it possible to sync the read progress across several played characters. No known issues, but as I don't play mutiple characters (or, uh, play at all tbh) it's not tested.  
+*Current issues:* Not really an issue, I just don't play multiple chars so I can't test the sync feature.   
+
+**This mod has been released.**
 
 
 ## Calm Water
 
-Some pathetic attempt at more clear and transparent water, some very clear mountain lakes, some tinted interior waters as well as green swamp water. Not compatible with UL. As with all water transparencies, at the ocean (or other huge water bodies) it will look weird outside the rendered cells. 
+Some pathetic attempt at more clear and transparent water, some very clear mountain lakes, some tinted interior waters as well as green swamp water. Not compatible with UL. As with all water transparencies, at the ocean (or other huge water bodies) it will look weird outside the rendered cells.   
+*Current issues:* It's still Oblivion water, it looks like shit.
 
 
 ## CTAddPose Custom ESP
 
 To be used with this tutorial [Making your own one-mod pose collection](http://www.shrine-of-kynareth.de/making-your-own-one-mod-pose-collection).
+
+**This resource has been released.**
 
 
 ## Display Skill Perk Effects
@@ -49,29 +59,34 @@ This mod adds detailed perk descriptions in skill tooltips. Supports some mods a
 ## Dynamically Adjusted Darkness
 
 Uses a script (similar to the one in MOO) that changes the darkness of nights. Could also be used to make them brighter, but too low source values (example: NAO) result in a weird tint. 
-Can be disabled for SI and Tamriel independently. The SI check uses GetPlayerInSEWorld, so just porting there to test won't work and everytime the value is not set, the script will assume the player is in Tamriel. 
+Can be disabled for SI and Tamriel independently. The SI check uses GetPlayerInSEWorld, so just porting there to test won't work and everytime the value is not set, the script will assume the player is in Tamriel.  
+*Current issues:* None.
 
 
 ## Fog of War
 
 Small plugin that adds a fog distance of 8000 to all weathers. 
-Was a request on reddit. For players who don't like how the lod looks and basically prefer a smaller draw distance. 
+Was a request on reddit. For players who don't like how the lod looks and basically prefer a smaller draw distance.    
+*Current issues:* None that I know of.
 
 
 ## Morrowind-like Leveling
 
-Allows you to keep increasing skills for attribute bonuses before going to sleep, even after the game told you you are ready to level up. Can optionally allow minor and spec skills to have impact on leveling, too. Should be functional on new game, will react unpredictable if adding to a running game with outstanding levelups (just don't), might react unpredictable if leveling in tutorial too much (gotta check how it behaves at the gate, perhaps just suspend until player exists). 
+Allows you to keep increasing skills for attribute bonuses before going to sleep, even after the game told you you are ready to level up. Can optionally allow minor and spec skills to have impact on leveling, too. Can optionally make luck level and fame/infamy dependent. Can optionally implement retroactive health.   
+Should be fully functional on new game, will react unpredictable if adding to a running game with outstanding levelups (just don't), might react unpredictable if leveling in tutorial too much (gotta check how it behaves at the gate, perhaps just suspend until player exists).   
+*Current issues:* If letting the mod calculate luck, it is still possible to raise luck at levelup, this point will be instantly lost afterwards. 
 
 
 ## Nameless Overhaul
 
-Close to vanilla overhaul that keeps a lot of vanilla scaling but puts an end to endless leveling enenmies and bandits in glass armor. Includes some quality of life features like artifact upgrading and simple bandage/lockpick crafting. 
-Issues: All planned features are implemented. Balancing untested on level 15+. 
+Close to vanilla overhaul that keeps a lot of vanilla scaling but puts an end to endless leveling enenmies and bandits in glass armor. Includes some quality of life features like artifact upgrading and simple bandage/lockpick crafting.  
+*Current Issues:* Balancing untested on level 15+. 
 
 
 ## Respawning Ayleid Stones
 
-Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall. 
+Replaces Ayleid stones on pickup with a new one that will respawn in (ini set) intervals. No known issues. Since it uses PlaceAtMe, check uninstall instructions if you ever want to uninstall.   
+*Current issues:* None.
 
 
 ## Shivering Weather mixed up
@@ -85,8 +100,8 @@ Nights are roughly 50% darker.
 
 ## This looks Familiar
 
-Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.
-The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
+Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.   
+*Current issues:* The water walking ability sometimes bugs out and generally, the ghostly effect bugs out when walking on water. Probably engine things.   
 
 
 ## Traveler's Tent
