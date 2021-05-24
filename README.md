@@ -7,7 +7,7 @@ If you actually happen to find this, it's "use at your own risk" territory. Stuf
 **If both, a bsa and loose files exist, only one is needed.**
 
 
-## A Rainbow of Treasaures - New Gems & Gem Dust
+## [A Rainbow of Treasaures - New Gems & Gem Dust](A Rainbow of Treasures)
 
 Adds 7 new gems to the game, and gemdust for all 12 gems (7 + 5 vanilla) as well as pearl dust.     
 The new gems are amethyst (purple), spinel (pink), aquamarine (light blue), onyx (black), peridot (light green), citrine (yellow) and tourmaline (cyan). The dust can be used for alchemy. 
@@ -95,6 +95,13 @@ Takes a few of the unused vanilla shivering isles weathers and puts them into th
 Mania/Dementia weather isn't clearly divided anymore, chances for the corresponding weathers are higher in the right region, but all weathers can happen everywhere.    
 Nights are roughly 50% darker.   
     
+**This mod has been released.**
+
+
+## Sinderion's Serendipity
+
+If you've managed to find & hand in 100 Nirnroots, you will acquire the perk "Sinderion's Serendipity" which gives a chance to create two potions instead of one when performing alchemy. 
+
 **This mod has been released.**
 
 
