@@ -42,6 +42,13 @@ Some pathetic attempt at more clear and transparent water, some very clear mount
 *Current issues:* It's still Oblivion water, it looks like shit.
 
 
+## Conjured Bows have Conjured Arrows
+
+This mod gives every actor that summons a bow a quiver of 50 Bound Arrows if they have no arrows equipped when casting the spell. 
+
+**This mod has been released.**
+
+
 ## CTAddPose Custom ESP
 
 To be used with this tutorial [Making your own one-mod pose collection](http://www.shrine-of-kynareth.de/making-your-own-one-mod-pose-collection).
@@ -115,6 +122,13 @@ Nights are roughly 50% darker.
 ## Sinderion's Serendipity
 
 If you've managed to find & hand in 100 Nirnroots, you will acquire the perk "Sinderion's Serendipity" which gives a chance to create two potions instead of one when performing alchemy. 
+
+**This mod has been released.**
+
+
+## Skill Based Harvest Chance
+
+Makes the harvest chance of plants dependent on Alchemy and Luck, while keeping the original chance as a base value. See ini for configuration.  
 
 **This mod has been released.**
 
