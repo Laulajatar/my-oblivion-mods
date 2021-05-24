@@ -77,6 +77,13 @@ Was a request on reddit. For players who don't like how the lod looks and basica
 *Current issues:* None that I know of.
 
 
+## Get rid of small Souls
+
+This mod allows you to remove souls from soul gems. Right clicking on any soul gem in your inventory opens a container. Drop the soul gems you want to empty in there, close your inventory and wait a moment. You will recieve empty soul gems. 
+
+**This mod has been released.**
+
+
 ## Morrowind-like Health
 
 This mod makes it so waiting no longer regenerates all health at once. It regenerates health by 10% Endurance per hour, like in Morrowind. 
@@ -129,6 +136,13 @@ If you've managed to find & hand in 100 Nirnroots, you will acquire the perk "Si
 ## Skill Based Harvest Chance
 
 Makes the harvest chance of plants dependent on Alchemy and Luck, while keeping the original chance as a base value. See ini for configuration.  
+
+**This mod has been released.**
+
+
+## Sort you Stuff
+
+This mod lets you sort items into every container that is safe for storage and either player-owned or unowned. It is possible to retrieve magic items (ingredients, scrolls, potions and sigil stones) by effect. 
 
 **This mod has been released.**
 
