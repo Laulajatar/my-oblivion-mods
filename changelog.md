@@ -1,5 +1,19 @@
 # Changelog
 
+## 2021-05-24
+
+- Added a lot of mods that previously were released on nexus:
+- Morrowind-like Health
+- Morrowind-like Magicka
+- Let there be Flowers
+- Get rid of small Souls
+- Sort your Stuff
+- Resource: Regional Capes
+- Resource: Fox Variants
+- Used Old Map for Shivering Isles
+- Sinderion's Serendipity
+- Conjured Bows have Conjured Arrows
+
 ## 2021-05-22
 
 - Added short descriptions to each mod's folder
