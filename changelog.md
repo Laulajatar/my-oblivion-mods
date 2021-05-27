@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-05-27
+
+- Added Interesting Locations so I don't have to go chase it down if I ever decide to work on it again.
+
 ## 2021-05-24
 
 - Added a lot of mods that previously were released on nexus:
