@@ -50,6 +50,9 @@ https://obse.silverlock.org/
 Changelog
 ---------
 
+Version 1.2.1
+Fixed a typo
+
 Version 1.2
 The icon should now stick around after reloading
 
