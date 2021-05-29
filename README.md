@@ -160,6 +160,12 @@ This mod lets you sort items into every container that is safe for storage and e
 **This mod has been released.**
 
 
+## Staffs give Experience
+
+Casting spells from staff gives experience to the school of the most expensive part of the enchantment.   
+*Current issues*: Doesn't yet take into account mods that change progression depending on the equipped skill. 
+
+
 ## This looks Familiar
 
 Adds a spell that summons a permanent familiar with a ghostly look. It can be leveled up by giving it a Welkynd Stone, not higher than player level as well as Mysticism/2, whatever is lowest. A lvl 14 player with Mysticism 20 could have a lvl 10 Familiar. Will sometimes find items when idle.   
