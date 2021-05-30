@@ -1,5 +1,10 @@
 # Changelog
 
+## 2021-05-30
+
+- Updated Travelers Tent with Heartbeat Quest
+- Pls work
+
 ## 2021-05-29
 
 - Added Staffs give Experience

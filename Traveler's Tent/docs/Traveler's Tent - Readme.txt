@@ -148,6 +148,12 @@ As a lot of things in this mod didn't come from me I can't give permission for t
 Version History
 ---------------
 
+1.3.2
+Added a quest that will keep track of the tent and attempt to put it back if it is vanished into the void
+    My current theory is that this happens if you drop the tent materials on a cell border, then drag it over the border before putting it up
+    But since it's Oblivion, it's impossible to cause this on purpose, that would be too easy
+    So, uh, good luck
+
 1.3.1
 Added the scripted spell failsafe from this article on Av Latta Magica to the mark friend spell:
 https://www.nexusmods.com/oblivion/articles/44458/

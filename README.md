@@ -163,7 +163,7 @@ This mod lets you sort items into every container that is safe for storage and e
 ## Staffs give Experience
 
 Casting spells from staff gives experience to the school of the most expensive part of the enchantment.   
-*Current issues*: Doesn't yet take into account mods that change progression depending on the equipped skill. 
+*Current issues*: Need to check how Fundament works and perhaps give it the same treatment as CMP.
 
 
 ## This looks Familiar
@@ -178,6 +178,7 @@ This version is adding some further development/fixes without proper time for te
 - Replaces Moveto command on tent interaction with a real door. 
 - Fixes the local map showing dummy interiors I used for decorating.
 - Added the scripted spell failsafe from this [article](https://www.nexusmods.com/oblivion/articles/44458/) to the mark companion spell.
+- Added a quest to attempt to prevent the vanishing tent bug
     
 **This mod has been released.**
 
