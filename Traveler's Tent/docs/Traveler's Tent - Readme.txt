@@ -76,6 +76,9 @@ Entering and exiting the tent will probably result in the weather changing. Chan
 If you ever lose your tent (be it the item, or the deployed thing), you can get a replacement at any of the merchants that have the Camping topic. The check for this is pretty lenient: As long as you don't have tent materials in inventory, you can buy a new one. Having multiple tent materials does NOT allow you to have multiple tents. 
 
 I haven't tested this, but I would suggest not leaving the tent set up in an Oblivion world when picking up the sigil stone. 
+Don't drop it in the arena, 
+
+Over the years, some people have experienced a bug where the tent vanishes after it's put up. I've added a script that attempts to put the tent back whenever that happens. It will only do so when the player is in the same cell, so in exteriors this might lead to the tent popping back to existence after crossing a cell border. Should it happen to pop on top of you, you can use the console command TCL to disable collision and get out. 
 
 
 
@@ -150,9 +153,10 @@ Version History
 
 1.3.2
 Added a quest that will keep track of the tent and attempt to put it back if it is vanished into the void
-    My current theory is that this happens if you drop the tent materials on a cell border, then drag it over the border before putting it up
-    But since it's Oblivion, it's impossible to cause this on purpose, that would be too easy
-    So, uh, good luck
+    This will only place the tent back while the player is in the same cell as it should be. This might cause it to pop up suddenly in exterior cells when crossing a border
+    The one and only time I had a vanishing tent, it was placed across a cell border, perhaps that's part of what causes it
+Prevented the tent from being put up in the arena
+Made sure the tent doesn't instantly trap the player if summoned from the void after vanishing
 
 1.3.1
 Added the scripted spell failsafe from this article on Av Latta Magica to the mark friend spell:
