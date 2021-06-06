@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-06-06
+
+- Addded the Better Sign for Nardala's fine Clothing
+
 ## 2021-05-30
 
 - Updated Travelers Tent with Heartbeat Quest
