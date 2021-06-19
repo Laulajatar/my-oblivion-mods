@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-06-19
+
+- Fixed horses doing weird things after fast travel when making them wait with the carrot in Nameless Overhaul
+
 ## 2021-06-06
 
 - Addded the Better Sign for Nardala's fine Clothing

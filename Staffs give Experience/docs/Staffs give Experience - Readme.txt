@@ -15,11 +15,11 @@ Any scripted effects will not grant experience.
 Known Issues/Compatibility
 --------------------------
 
-Will behave strangely with mods that manipulate how much experience a spell gives depending on spell cost/level:
+Will most likely behave strangely with mods that manipulate how much experience a spell gives depending on spell cost/level:
 
 Works fine with Customizable Magic Progression. 
 The updated Supreme Magicka doesn't seem to have this feature anymore.
-Haven't looked into Fundament yet.
+Haven't looked into Fundament yet. There is a chance it works well because it seems to use event handlers instead of messing with the game settings, but I am currently too tired to understand that code. 
 
 Will not work with any mods that replace use based skill leveling with something else, like Oblivion XP or the similar mode from Ultimate Leveling. 
 
