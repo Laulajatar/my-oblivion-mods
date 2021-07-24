@@ -49,15 +49,15 @@ DETAILED CHANGES
 + Goblins living in tribes are now capped as well, but still quite stronger than their tribeless counterparts
 + Most animals now drop both one ingredient (like meat) and one trophy (like pelt) to make hunting a bit more worthwile
 + Hostile NPCs and guards are now level capped, usually between level 20 and 30
-	Marauders are stronger than bandits, necromancers are stronger than summoners and vampires are the strongest
-	Boss enemies remain uncapped
+    Marauders are stronger than bandits, necromancers are stronger than summoners and vampires are the strongest
+    Boss enemies remain uncapped
 + Conjurer and necromancer bosses now can drop enchanted weapons
 + Some creatures and npcs remain unchanged:
-	Jailors remain unchanged for better compatibility with the UOP
+    Jailors remain unchanged for better compatibility with the UOP
     Foresters remain unchanged for better compatibility with the UOP
     The guards of the Arcane University remain unchanged for better compatibility with the UOP
-	Most named NPCs remain untouched
-	The Arena enemies have not been changed
+    Most named NPCs remain untouched
+    The Arena enemies have not been changed
 + Grummites now use grummite bows and the bows' stats were lowered to roughly match the stats of the iron bow
 + All those changes mean the game WILL be easier at higher levels, even if you didn't build your character perfectly. If you're looking for a higher difficulty, this isn't the mod for you
 + Most creature stats are unchanged, their levels just have been capped, usually at about 7 levels after they first spawn. If you're looking for some polished, rebalanced stat overhaul, this isn't the mod for you
@@ -65,24 +65,24 @@ DETAILED CHANGES
 
 == Changes to Loot ==
 + Normal NPC enemies won't spawn with armor better than chainmail and silver (see below) and weapons better than silver
-	Boss enemies can still carry (enchanted) gear of higher rarities at appropriate levels
+    Boss enemies can still carry (enchanted) gear of higher rarities at appropriate levels
 + Armor/Weapon drops in loot remain largely unchanged
-	New armor was added to merchants as well as loot lists
+    New armor was added to merchants as well as loot lists
 + Loot that gives no immediate boost in player strength has been unleveled and made fully random (gems, soulgems, pearls, ingredients) 
 + Merchants now carry better gear a up to glass (weapons) and elven/ebony (armor) quality, to make buying gear a real alternative
 + The unused pit armor set has been added to the light armor leveled lists as "Cured Leather Armor" with the same stats as normal leather armor
-	This armor drops in both unenchanted and enchanted versions
+    This armor drops in both unenchanted and enchanted versions
 + For more variety, the unique Amelion armor set has been added to the heavy armor leveled lists as "Silver Armor" with the same stats as dwemer armor
-	This armor drops in both unenchanted and enchanted versions
-	The original Amelion armor is still a light armor set and was unchanged
+    This armor drops in both unenchanted and enchanted versions
+    The original Amelion armor is still a light armor set and was unchanged
 + Fine Steel weapons now can be found on enemies and in loot, instead of only being available in shops
     Enchanted variants of fine steel weapons were added as well
     The model for the fine steel bow is the same as the model for the normal steel bow
 + Imperial watch armor is now playable. Disclaimer: I don't condone killing the watch to aquire it
 + You can now get a clothing version of the arena rainment that has the same enchantment and model as the light armor version 
-	You can recieve it from Owyn and find it in the normal spots
-	There is also a clothing version of the champion gear
-	The dialogue for those 2 options is unvoiced
+    You can recieve it from Owyn and find it in the normal spots
+    There is also a clothing version of the champion gear
+    The dialogue for those 2 options is unvoiced
 + Previously unavailable enchanted items that existed in the game files were added to the respective leveled lists
 + Previously unsold clothing will now be sold at appropriate merchants
 + A clothing version of the "Bracers" was added to those merchants as well. Doesn't exactly look nice, but fixes the Wrist Irons being the only clothing piece for hands
@@ -96,40 +96,41 @@ DETAILED CHANGES
 == Changes to Magic ==
 + The Summon Dremora Lord spell is now available for purchase in the Arcane University, to prevent its effect from becoming unavailable
 + Some spells are available in different magnitudes for easier access to spellmaking: 
-	A Novice Water Walking spell can be purchased from Edgar Vautrine & Ungarion
-	An Expert Water Walking spell can be purchased from Thaurron
-	A Novice Water Breathing spell can be purchased from Alves Uvenim
-	An Expert Water Breathing spell can be purchased from Thaurron
-	An Apprentice Invisibility spell can be purchased from Edgar Vautrine & Ungarion
-	The vanilla Bound Dagger spell can now be purchased from Ungarion, too
+    A Novice Water Walking spell can be purchased from Edgar Vautrine & Ungarion
+    An Expert Water Walking spell can be purchased from Thaurron
+    A Novice Water Breathing spell can be purchased from Alves Uvenim
+    An Expert Water Breathing spell can be purchased from Thaurron
+    An Apprentice Invisibility spell can be purchased from Edgar Vautrine & Ungarion
+    The vanilla Bound Dagger spell can now be purchased from Ungarion, too
 + Costs for Finger of the Mountain have been adjusted to not make it the worst deal ever. It will now cost roughly half as much as a custom made spell would cost, just like Wizard's Fury
 + Once you've aquired either of the two leveled spells, you can buy (or steal) books to upgrade those spells in the First Edition in the Imperial City
-	The Ayleid Storm, used to upgrade Finger of the Mountain
-	A Furious Wizard, used to upgrade Wizard's Fury
+    The Ayleid Storm, used to upgrade Finger of the Mountain
+    A Furious Wizard, used to upgrade Wizard's Fury
 + The effectiveness of health potions that can be bought or found in loot has been increased (50/100/150 points instead of 20/35/50 points respectively)
  
  
 == New Features ==
 + You can find an Arcane Enhancer that can be used to upgrade quest rewards. Put the item in together with a welkynd stone, wait a moment and if available, recieve a new and improved version of your item
-	UOP fixes for the leveled rewards have been implemented, to prevent the upgrading of quest rewards giving inconsistent results 
+    UOP fixes for the leveled rewards have been implemented, to prevent the upgrading of quest rewards giving inconsistent results 
 + Previously missing ingredients and SI ingredients have been added to the archmage's chest. No Nirnroot though, sorry 
 + The robes you recieve after you become archmage now have a powerful (leveled) enchantment. If you'd rather enchant them yourself, a new set of unenchanted archmage robes will be added to the nightstand in the archmage's quarters once per week, if there isn't one already in there
-	This change has a failsave in case the quest is overwritten by another mod. Then you will get the enchanted variant on top of your normal quest rewards
+    This change has a failsave in case the quest is overwritten by another mod. Then you will get the enchanted variant on top of your normal quest rewards
 + Gold quest rewards have been unleveled to always give a higher amount of gold. Really, who wants to take out a bandit lair to recieve 20g when you can craft 3 novice potions to get the same
 + Rewards for Dark Brotherhood contracts have been unleveled, too
 + After you've recieved your first set of Dark Seducer/Golden Saint armor, you can buy additional sets that will match your current level from Cutter and Dumag gro-Bonk, respectively
-	After you've finished the SI questline, the opposite armor will be available for purchase as well
+    After you've finished the SI questline, the opposite armor will be available for purchase as well
 + You can donate a not-so-small sum at the Arcane University which will unlock spellmaking and enchanting at each guild hall without being a member. Progressing the MG questline will make the unlock cheaper for each completed quest (recommendations don't count). Once it's done, talk to different people in the guild halls to find the ones that offer this service
++ Certain unique items purchased from a Dark Brotherhood member will no longer become unavailable
 
 
 == Crafting ==
 + Certain merchants have an Abyssal Soulgem for sale. You can put soul gems in to empty them if you caught a too small soul
-	This works for prefilled soulgems, too
+    This works for prefilled soulgems, too
     Prefilled soulgems had their prices adjusted to be the equivalent of empty soul gem + soul value, so you can't abuse buying a grand soul gem that's filled with a petty soul for 40 septims and just yeet the soul out
 + Certain alchemists have an Adaptable Grinder for sale. You can use it to grind bones to bonemeal, pearls to dust, wheat grain to flour and moon sugar to skooma
 + Certain general merchants have Average Scissors for sale. You can use them to cut cloth into bandages, which work as a small over-time healing potion, for people who don't want to dabble in alchemy or restoration
-	The higher your level, the more powerful the created bandages are
-	The bandages are not supposed to make a real difference in combat, but meant to replace the spamming of heals after combat
+    The higher your level, the more powerful the created bandages are
+    The bandages are not supposed to make a real difference in combat, but meant to replace the spamming of heals after combat
     If you use dirty linen to create bandages, there is a chance that you'll contract a random disease when using them
     To avoid unnecessary scripts, those bandages are currently treated as potions, i.e. they make potion sounds and are calculated in the potion limit
 + Certain general merchants have an Adamant Hammer for sale. You can use it to make lockpicks from metal clutter like tongs, calipers and shears
@@ -155,12 +156,12 @@ DETAILED CHANGES
 An optional esp is available to lessen the levelup requirements. You would get a +5 attribute increase at 5 increased skills rather than 10, while keeping the vanilla leveling system
 
 An optional esp is available to give all magic schools one more starting spell to help out the fledgling mage. This is optional so you can leave it out if you use any magic overhauls that would conflict. Don't use it with Supreme Magicka, SM already adds almost the same start spells. It works with Av Latta Magicka and LAME. I would not recommend using it with Balanced Magic. 
-	Alteration recieves a Novice Feather spell that can't be purchased otherwise*
-	Conjuration recieves a Bound Dagger spell
-	Destruction recieves a Novice Damage Fatigue spell
-	Illusion recieves a Novice Charm spell
-	Mysticism recieves a Novice Soul Trap spell that can't be purchased otherwise*
-	Restoration recieves a Novice Restore Fatigue spell
+    Alteration recieves a Novice Feather spell that can't be purchased otherwise*
+    Conjuration recieves a Bound Dagger spell
+    Destruction recieves a Novice Damage Fatigue spell
+    Illusion recieves a Novice Charm spell
+    Mysticism recieves a Novice Soul Trap spell that can't be purchased otherwise*
+    Restoration recieves a Novice Restore Fatigue spell
 *Those 2 spells are not sold since every city already sells the apprentice version of these spells. All other start spells are novice versions, so I didn't want to hand out higher level spells
 
 
@@ -180,7 +181,7 @@ If you are using a Bashed Patch, all of them can be safely merged & deactivated.
 + Patch for Horse Armor
     Makes the Alluring Carrot work with armored horses 
 
-	
+
 
 ==========
 Requirements 
