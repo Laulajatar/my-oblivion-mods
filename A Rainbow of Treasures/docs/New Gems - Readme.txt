@@ -69,6 +69,9 @@ If you want to use those gems in your own mod, you need to use the meshes & text
 Version History
 ---------------
 
+1.1.1
+Just removed some records because the bashed patch won't be able to import those names anyway when they are identical to Oblivion.esm
+
 1.1
 Reduced all gem weights to 0.1
 Added "Names" bash tag

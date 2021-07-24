@@ -3,6 +3,7 @@
 ## 2021-07-24
 
 - Updated tent to 1.3.3
+- Removed 5 ITMs from New Gems
 
 ## 2021-06-19
 
