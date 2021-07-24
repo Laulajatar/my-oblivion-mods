@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-07-24
+
+- Updated tent to 1.3.3
+
 ## 2021-06-19
 
 - Fixed horses doing weird things after fast travel when making them wait with the carrot in Nameless Overhaul

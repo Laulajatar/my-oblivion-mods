@@ -75,10 +75,11 @@ Entering and exiting the tent will probably result in the weather changing. Chan
 
 If you ever lose your tent (be it the item, or the deployed thing), you can get a replacement at any of the merchants that have the Camping topic. The check for this is pretty lenient: As long as you don't have tent materials in inventory, you can buy a new one. Having multiple tent materials does NOT allow you to have multiple tents. 
 
-I haven't tested this, but I would suggest not leaving the tent set up in an Oblivion world when picking up the sigil stone. 
-Don't drop it in the arena, 
+I haven't tested this, but I would suggest not leaving the tent set up in an Oblivion world when picking up the sigil stone. Horrible things might happen. 
 
 Over the years, some people have experienced a bug where the tent vanishes after it's put up. I've added a script that attempts to put the tent back whenever that happens. It will only do so when the player is in the same cell, so in exteriors this might lead to the tent popping back to existence after crossing a cell border. Should it happen to pop on top of you, you can use the console command TCL to disable collision and get out. 
+
+Apparently fast travel on horseback to a script moved map marker behaves a bit weirdly. You will not spawn directly on the marker, but somewhere in the area. I suggest dismounting before traveling to your tent, your horse will follow you anyway..
 
 
 
@@ -95,6 +96,12 @@ This mod also requires Shivering Isles.
 
 Update
 ------
+
+To 1.3.x
+To be safe, just pick up your tent, if it's currently up, save the game in a new slot
+(Keeping a backup save before changes is always a good idea!)
+Close the game, uninstall old version, install new version
+Put up the tent again
 
 To 1.2
 Just replace the previous version with the new files
@@ -150,6 +157,10 @@ As a lot of things in this mod didn't come from me I can't give permission for t
 
 Version History
 ---------------
+
+1.3.3
+Increased the min distance for tent erection a bit to make sure there is always enough room, even if put up sideways
+The tent map marker will now always appear in front of the door, facing it, no matter where the player stood when putting up the tent
 
 1.3.2
 Added a quest that will keep track of the tent and attempt to put it back if it is vanished into the void
