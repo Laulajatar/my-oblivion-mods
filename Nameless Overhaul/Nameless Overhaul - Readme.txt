@@ -125,6 +125,7 @@ DETAILED CHANGES
 == Crafting ==
 + Certain merchants have an Abyssal Soulgem for sale. You can put soul gems in to empty them if you caught a too small soul
 	This works for prefilled soulgems, too
+    Prefilled soulgems had their prices adjusted to be the equivalent of empty soul gem + soul value, so you can't abuse buying a grand soul gem that's filled with a petty soul for 40 septims and just yeet the soul out
 + Certain alchemists have an Adaptable Grinder for sale. You can use it to grind bones to bonemeal, pearls to dust, wheat grain to flour and moon sugar to skooma
 + Certain general merchants have Average Scissors for sale. You can use them to cut cloth into bandages, which work as a small over-time healing potion, for people who don't want to dabble in alchemy or restoration
 	The higher your level, the more powerful the created bandages are
