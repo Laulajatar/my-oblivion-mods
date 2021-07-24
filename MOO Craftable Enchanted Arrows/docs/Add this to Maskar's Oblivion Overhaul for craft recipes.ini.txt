@@ -1,0 +1,1399 @@
+;=============================================================================;
+; Fletching Jig (enchantend arrows)						      ;
+;=============================================================================;
+
+set MOO.ini_object_type to MOO.type_FletchingJig
+
+set MOO.ini_object_filename to sv_Construct "MOO Craftable Enchanted Arrows.esp"
+
+; ============
+; Stone Arrows
+; ============
+
+; lauArrow0Stone
+set MOO.ini_object_target_id to sv_Construct "1625"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+SetStage MOO 60
+
+; lauArrow0StoneFire1
+set MOO.ini_object_target_id to sv_Construct "1CF9"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFire2
+set MOO.ini_object_target_id to sv_Construct "1CFA"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFire3
+set MOO.ini_object_target_id to sv_Construct "1CFB"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFire4
+set MOO.ini_object_target_id to sv_Construct "1CFC"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFrost1
+set MOO.ini_object_target_id to sv_Construct "1CFD"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFrost2
+set MOO.ini_object_target_id to sv_Construct "1CFE"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFrost3
+set MOO.ini_object_target_id to sv_Construct "1CFF"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneFrost4
+set MOO.ini_object_target_id to sv_Construct "1D00"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneShock1
+set MOO.ini_object_target_id to sv_Construct "1D01"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneShock2
+set MOO.ini_object_target_id to sv_Construct "1D02"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneShock3
+set MOO.ini_object_target_id to sv_Construct "1D03"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneShock4
+set MOO.ini_object_target_id to sv_Construct "1D04"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneToxic1
+set MOO.ini_object_target_id to sv_Construct "1D05"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneToxic2
+set MOO.ini_object_target_id to sv_Construct "1D06"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneToxic3
+set MOO.ini_object_target_id to sv_Construct "1D07"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; lauArrow0StoneToxic4
+set MOO.ini_object_target_id to sv_Construct "1D08"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_Stone
+set MOO.ini_object_source3_weight to 1.0
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ===========
+; Iron Arrows
+; ===========
+
+; Arrow1IronFire1
+set MOO.ini_object_target_id to sv_Construct "ED3"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFire2
+set MOO.ini_object_target_id to sv_Construct "ED4"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFire3
+set MOO.ini_object_target_id to sv_Construct "ED5"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFire4
+set MOO.ini_object_target_id to sv_Construct "ED6"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFrost1
+set MOO.ini_object_target_id to sv_Construct "15DD"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFrost2
+set MOO.ini_object_target_id to sv_Construct "15DE"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFrost3
+set MOO.ini_object_target_id to sv_Construct "15DF"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronFrost4
+set MOO.ini_object_target_id to sv_Construct "15E0"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronShock1
+set MOO.ini_object_target_id to sv_Construct "15E5"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronShock2
+set MOO.ini_object_target_id to sv_Construct "15E6"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronShock3
+set MOO.ini_object_target_id to sv_Construct "15E7"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronShock4
+set MOO.ini_object_target_id to sv_Construct "15E8"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronToxic1
+set MOO.ini_object_target_id to sv_Construct "15E1"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronToxic2
+set MOO.ini_object_target_id to sv_Construct "15E2"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronToxic3
+set MOO.ini_object_target_id to sv_Construct "15E3"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow1IronToxic4
+set MOO.ini_object_target_id to sv_Construct "15E4"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_IronArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ============
+; Steel Arrows
+; ============
+
+; Arrow2SteelFire1
+set MOO.ini_object_target_id to sv_Construct "15C9"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFire2
+set MOO.ini_object_target_id to sv_Construct "15CA"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFire3
+set MOO.ini_object_target_id to sv_Construct "15CB"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFire4
+set MOO.ini_object_target_id to sv_Construct "15CC"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFrost1
+set MOO.ini_object_target_id to sv_Construct "15E9"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFrost2
+set MOO.ini_object_target_id to sv_Construct "15EA"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFrost3
+set MOO.ini_object_target_id to sv_Construct "15EB"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelFrost4
+set MOO.ini_object_target_id to sv_Construct "15EC"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelShock1
+set MOO.ini_object_target_id to sv_Construct "15ED"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelShock2
+set MOO.ini_object_target_id to sv_Construct "15EE"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelShock3
+set MOO.ini_object_target_id to sv_Construct "15EF"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelShock4
+set MOO.ini_object_target_id to sv_Construct "15F0"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelToxic1
+set MOO.ini_object_target_id to sv_Construct "15F9"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelToxic2
+set MOO.ini_object_target_id to sv_Construct "15FA"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelToxic3
+set MOO.ini_object_target_id to sv_Construct "15FB"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow2SteelToxic4
+set MOO.ini_object_target_id to sv_Construct "15FC"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SteelArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; =============
+; Silver Arrows
+; =============
+
+; Arrow3SilverFire1
+set MOO.ini_object_target_id to sv_Construct "15CD"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFire2
+set MOO.ini_object_target_id to sv_Construct "15D1"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFire3
+set MOO.ini_object_target_id to sv_Construct "15D2"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFire4
+set MOO.ini_object_target_id to sv_Construct "15D3"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFrost1
+set MOO.ini_object_target_id to sv_Construct "15F1"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFrost2
+set MOO.ini_object_target_id to sv_Construct "15F2"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFrost3
+set MOO.ini_object_target_id to sv_Construct "15F3"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverFrost4
+set MOO.ini_object_target_id to sv_Construct "15F4"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverShock1
+set MOO.ini_object_target_id to sv_Construct "15F5"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverShock2
+set MOO.ini_object_target_id to sv_Construct "15F6"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverShock3
+set MOO.ini_object_target_id to sv_Construct "15F7"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverShock4
+set MOO.ini_object_target_id to sv_Construct "15F8"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverToxic1
+set MOO.ini_object_target_id to sv_Construct "15FD"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverToxic2
+set MOO.ini_object_target_id to sv_Construct "15FE"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverToxic3
+set MOO.ini_object_target_id to sv_Construct "15FF"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow3SilverToxic4
+set MOO.ini_object_target_id to sv_Construct "1600"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_SilverArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ==============
+; Dwarven Arrows
+; ==============
+
+; ============
+; Elven Arrows
+; ============
+
+; Arrow5ElvenFire1
+set MOO.ini_object_target_id to sv_Construct "15CE"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFire2
+set MOO.ini_object_target_id to sv_Construct "15D4"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFire3
+set MOO.ini_object_target_id to sv_Construct "15D5"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFire4
+set MOO.ini_object_target_id to sv_Construct "15D6"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFrost1
+set MOO.ini_object_target_id to sv_Construct "1601"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFrost2
+set MOO.ini_object_target_id to sv_Construct "1602"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFrost3
+set MOO.ini_object_target_id to sv_Construct "1603"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenFrost4
+set MOO.ini_object_target_id to sv_Construct "1604"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenShock1
+set MOO.ini_object_target_id to sv_Construct "1605"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenShock2
+set MOO.ini_object_target_id to sv_Construct "1606"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenShock3
+set MOO.ini_object_target_id to sv_Construct "1607"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenShock4
+set MOO.ini_object_target_id to sv_Construct "1608"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenToxic1
+set MOO.ini_object_target_id to sv_Construct "1609"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenToxic2
+set MOO.ini_object_target_id to sv_Construct "160A"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenToxic3
+set MOO.ini_object_target_id to sv_Construct "160B"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow5ElvenToxic4
+set MOO.ini_object_target_id to sv_Construct "160C"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_ElvenArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ============
+; Glass Arrows
+; ============
+
+; Arrow6GlassFire1
+set MOO.ini_object_target_id to sv_Construct "15CF"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFire2
+set MOO.ini_object_target_id to sv_Construct "15D7"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFire3
+set MOO.ini_object_target_id to sv_Construct "15D8"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFire4
+set MOO.ini_object_target_id to sv_Construct "15D9"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFrost1
+set MOO.ini_object_target_id to sv_Construct "160D"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFrost2
+set MOO.ini_object_target_id to sv_Construct "160E"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFrost3
+set MOO.ini_object_target_id to sv_Construct "160F"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassFrost4
+set MOO.ini_object_target_id to sv_Construct "1610"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassShock1
+set MOO.ini_object_target_id to sv_Construct "1611"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassShock2
+set MOO.ini_object_target_id to sv_Construct "1612"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassShock3
+set MOO.ini_object_target_id to sv_Construct "1613"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassShock4
+set MOO.ini_object_target_id to sv_Construct "1614"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassToxic1
+set MOO.ini_object_target_id to sv_Construct "1615"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassToxic2
+set MOO.ini_object_target_id to sv_Construct "1616"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassToxic3
+set MOO.ini_object_target_id to sv_Construct "1617"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow6GlassToxic4
+set MOO.ini_object_target_id to sv_Construct "1618"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_GlassArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ============
+; Ebony Arrows
+; ============
+
+; Arrow7EbonyFire1
+set MOO.ini_object_target_id to sv_Construct "15D0"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFire2
+set MOO.ini_object_target_id to sv_Construct "15DA"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFire3
+set MOO.ini_object_target_id to sv_Construct "15DB"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFire4
+set MOO.ini_object_target_id to sv_Construct "15DC"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFire4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFrost1
+set MOO.ini_object_target_id to sv_Construct "1619"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFrost2
+set MOO.ini_object_target_id to sv_Construct "161A"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFrost3
+set MOO.ini_object_target_id to sv_Construct "161B"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyFrost4
+set MOO.ini_object_target_id to sv_Construct "161C"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionFrost4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyShock1
+set MOO.ini_object_target_id to sv_Construct "161D"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyShock2
+set MOO.ini_object_target_id to sv_Construct "161E"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyShock3
+set MOO.ini_object_target_id to sv_Construct "161F"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyShock4
+set MOO.ini_object_target_id to sv_Construct "1620"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionShock4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyToxic1
+set MOO.ini_object_target_id to sv_Construct "1621"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic1
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyToxic2
+set MOO.ini_object_target_id to sv_Construct "1622"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic2
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyToxic3
+set MOO.ini_object_target_id to sv_Construct "1623"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic3
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; Arrow7EbonyToxic4
+set MOO.ini_object_target_id to sv_Construct "1624"
+set MOO.ini_object_source1_id to MOO.id_Shaft
+set MOO.ini_object_source1_weight to 0.1
+set MOO.ini_object_source2_id to MOO.id_Feather
+set MOO.ini_object_source2_weight to 0.1
+set MOO.ini_object_source3_id to MOO.id_EbonyArrowHead
+set MOO.ini_object_source3_weight to 0.1
+set MOO.ini_object_source4_id to MOO.id_PotionToxic4
+set MOO.ini_object_source4_weight to 0.1
+SetStage MOO 60
+
+; ==============
+; Daedric Arrows
+; ==============
+
+; Arrow8Daedric ; not (yet) craftable
