@@ -69,6 +69,9 @@ DETAILED CHANGES
 + Armor/Weapon drops in loot remain largely unchanged
     New armor was added to merchants as well as loot lists
 + Loot that gives no immediate boost in player strength has been unleveled and made fully random (gems, soulgems, pearls, ingredients) 
++ Enchanted Arrows are now easier to get
+    They will drop more often from places where normal arrows drop
+    Some merchants have a chance of offering enchanted arrows up to ebony for sale
 + Merchants now carry better gear a up to glass (weapons) and elven/ebony (armor) quality, to make buying gear a real alternative
 + The unused pit armor set has been added to the light armor leveled lists as "Cured Leather Armor" with the same stats as normal leather armor
     This armor drops in both unenchanted and enchanted versions
