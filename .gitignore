@@ -1,5 +1,7 @@
 *.7z
 *.bsa
 
+*/IgnoreMe
+
 token
 Nameless Overhaul/UsedForPatching
