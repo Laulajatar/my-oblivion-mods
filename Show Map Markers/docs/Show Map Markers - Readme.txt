@@ -10,7 +10,7 @@ Similar to the "Explorer" perk in Fallout games, this mod will mark all location
 By default, this happens on level 20. 
 
 It will work for all worldspaces, Tamriel, SI and mod added ones. 
-If new mods are installed, those map markers will show up as well, if the original conditions (= level 20, unless changed) are met. 
+If new mods are installed later, those map markers will show up as well, if the conditions (= level 20, unless changed) are still met. 
 
 By default, you will get a short message when new markers are added to your map. You can change that in the ini to no notification at all or to a more obvious message box. 
 You can set the level on which the map markers should appear in the ini file as well. 
