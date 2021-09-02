@@ -12,7 +12,10 @@ By default, this happens on level 20.
 It will work for all worldspaces, Tamriel, SI and mod added ones. 
 If new mods are installed, those map markers will show up as well, if the original conditions (= level 20, unless changed) are met. 
 
-You can set the level on which the map markers should appear in the ini file, or you can use LINK to configure it. 
+By default, you will get a short message when new markers are added to your map. You can change that in the ini to no notification at all or to a more obvious message box. 
+You can set the level on which the map markers should appear in the ini file as well. 
+
+This mod supports LINK.
 
 
 
