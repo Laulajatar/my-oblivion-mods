@@ -1,5 +1,10 @@
 # Changelog
 
+## 2021-09-02
+
+- Add Show Map Markers
+- Well guess I added the sunglare at some point, but forgot to mention it
+
 ## 2021-07-24
 
 - Updated tent to 1.3.3
