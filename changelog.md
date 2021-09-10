@@ -1,5 +1,10 @@
 # Changelog
 
+## 2021-09-10
+
+- Add Morrowind-like Fog
+- So apparently I still had an update for Show Map Markers uncommited. Whatever.
+
 ## 2021-09-02
 
 - Add Show Map Markers
