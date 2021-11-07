@@ -38,11 +38,15 @@ For some mods it also displays additional perks. Mods currently supported are (s
   Shows only default values. If you fiddle with FEA's ini, you need to adjust the perks in this mod's ini as well
 - Pickpocket Skill Overhaul
   Shows only default values. If you fiddle with Pickpocket Skill Overhaul's ini, you need to adjust the perks in this mod's ini as well
+- Real Time Lockpicking by miguick
+  Only the default order of perks is supported. If you switch them around, you'll need to use custom text with your ini
+
 
   
 The mod will initialize itself on game load and then again a few seconds later, to grab the last struggling game settings that are modified via scripts on game start. It will then update the perk texts every 30 seconds or so, to try and avoid having impact on performance, but still cover mods that alter game settings as the character progresses. 
 
 There is an ini file that's not needed for the mod to work, but if this ini file is placed in Oblivion/Data/ini, you can use it to override each perk description. Perhaps you are using a lesser known mod that adds an effect, then you can just add it there. Please check the instruction on top of the ini file, if you want to use it. 
+Please note: One line (including text and quotation marks and everything) may not exceed 512 characters. 
 
 I'm kinda open to adding new perks of mods, but chances are higher if a) it's a popular mod, b) the effects are clear and impactful and c) you ask nicely. Even then, I don't have that much time, that's why this mod comes with an ini file, so you can add custom perks yourself, with no modding knowledge. 
 
@@ -82,6 +86,13 @@ https://github.com/llde/xOBSE/releases
 
 Changelog
 ---------
+
+Version 1.4
+Added support for Real Time Lockpicking by miguick with one caveat:
+    Only the default order of perks is supported. If you switch them around, you'll need to use custom text with your ini.
+Updated to Av Latta 1.19 (Changed destruction perk)
+Updated to Maskar's Unarmored skill 1.2
+    The FormID of the skill had changed, now it will be recognized again
 
 Version 1.3.3
 Adjusted the Master Illusion, Exptert Mysticism and Journeyman Alteration perk to Av Latta 1.16
