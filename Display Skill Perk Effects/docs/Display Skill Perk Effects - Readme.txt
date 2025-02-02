@@ -17,7 +17,10 @@ For some mods it also displays additional perks. Mods currently supported are (s
 - Av Latta Magicka 
   Shows all magic school perks
   Shows magic sneak damage for touch and target
-  Note: Av Latta Magicka already displays potion and summon limit itself
+  Note: Av Latta Magicka already displays summon limit itself
+- De Rerum Dirennis
+  Shows the new Alchemy perks
+  Note: De Rerum Dirennis already displays potion limit itself
 - Oscuro's Oblivion Overhaul
   Shows which locks you can pick with security (this isn't 100% accurate, as the values for locks have a pretty wide range)
 - Skill based harvest chance
@@ -40,7 +43,11 @@ For some mods it also displays additional perks. Mods currently supported are (s
   Shows only default values. If you fiddle with Pickpocket Skill Overhaul's ini, you need to adjust the perks in this mod's ini as well
 - Real Time Lockpicking by miguick
   Only the default order of perks is supported. If you switch them around, you'll need to use custom text with your ini
-
+- Horse Gameplay Overhaul
+  Shows the perks of the Horsemanship skill
+- OCraft Crafting Skill
+  Shows the perks of the Crafting skill 
+  Values are fetched from the ini and update automatically if you change the default settings
 
   
 The mod will initialize itself on game load and then again a few seconds later, to grab the last struggling game settings that are modified via scripts on game start. It will then update the perk texts every 30 seconds or so, to try and avoid having impact on performance, but still cover mods that alter game settings as the character progresses. 
@@ -86,6 +93,11 @@ https://github.com/llde/xOBSE/releases
 
 Changelog
 ---------
+
+Version 1.5
+Added support for Horse Gameplay Overhaul
+Added support for De Rerum Dirennis while removing the support for Av Latta Magicka changes to Alchemy, which no longer exist
+Added support for OCraft Crafting Skill
 
 Version 1.4
 Added support for Real Time Lockpicking by miguick with one caveat:

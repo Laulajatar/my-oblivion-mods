@@ -53,3 +53,6 @@ Changelog
 
 Version 1.0
 Release 
+
+Version 1.1
+Fixed emptying of black soul gems
