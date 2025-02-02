@@ -56,6 +56,11 @@ To be used with this tutorial [Making your own one-mod pose collection](http://w
 **This resource has been released.**
 
 
+# Custom Map Marker Overhaul Icons
+
+What it says on the tin.
+
+
 ## Display Skill Perk Effects
 
 This mod adds detailed perk descriptions in skill tooltips. Supports some mods adding custom perks and customized texts. 
@@ -80,6 +85,13 @@ Was a request on reddit. For players who don't like how the lod looks and basica
 ## Get rid of small Souls
 
 This mod allows you to remove souls from soul gems. Right clicking on any soul gem in your inventory opens a container. Drop the soul gems you want to empty in there, close your inventory and wait a moment. You will recieve empty soul gems. 
+
+**This mod has been released.**
+
+
+## Hudless Screenshot Key
+
+Remove interface, take screenshot, put interface back, with one keypress.
 
 **This mod has been released.**
 
@@ -116,6 +128,11 @@ Should be fully functional on new game, will react unpredictable if adding to a 
 This mod stops Magicka regeneration. You'll have to rest, wait or use potions/absorb to regain Magicka, like in Morrowind. Optionally turn on Willpower/Intelligence only based regeneration. 
 
 **This mod has been released.**
+
+
+## Move while Encumbered
+
+Let's you still walk (not run) while encumbered, FO3 style. Is a bit hacky, might not always work, and doesn't work on controller, sadly. Unlikely to ever change.
 
 
 ## Nameless Overhaul

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025-02-02
+
+- Woops where did the past 3,5 years go?
+- Added Move while Encumbered, which apparently wasn't in here yet
+- Added the changed Map Marker Overhaul icons I made for myself
+- Updated Skill Perk Display to support De Rerum Dirennis, Ocraft Skill, and Horse Gameplay Overhaul
+- Gave the hudless screenshot key a hudless no-screenshot key
+
 ## 2021-09-10
 
 - Add Morrowind-like Fog
